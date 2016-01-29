@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/itemRemoveRecord" android:title="@string/removeRecord" android:menuCategory="container" android:titleCondensed="@string/removeRecord"></item>
+    
+
+</menu>
+<!-- From: file:/Users/deincrediblelowkey/Documents/Final%20Lap-Go%20HarD!/applied/ashesi-cs-mhealth/mhealth/res/menu/menu_community_members_record_context.xml -->

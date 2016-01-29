@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     tools:context=".CommunityMemberRecordActivity$OtherFragment"
+     >
+
+     <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textStatus"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/status" />
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textCommunityMembersRecOthersTitle"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/title_cm_record_other"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+		
+        <Spinner
+	        android:id="@+id/spinnerOPDCaseCategories"
+	        android:layout_weight="0.2"
+	        android:layout_width="wrap_content" />
+        <Spinner
+	        android:id="@+id/spinnerOPDCases"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content" />
+
+        <CheckBox
+            android:id="@+id/cbLab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lab"  />
+
+	    <Button
+	        android:id="@+id/buttonCommunityMemberRecordOPDCase"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/record" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:choiceMode="singleChoice"
+            android:focusableInTouchMode="true" >
+
+	    </ListView>
+        
+    </TableRow>
+
+    
+</TableLayout>
+<!-- From: file:/Users/deincrediblelowkey/Documents/Final%20Lap-Go%20HarD!/applied/ashesi-cs-mhealth/mhealth/res/layout/fragment_community_member_record_other.xml -->

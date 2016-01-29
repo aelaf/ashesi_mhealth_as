@@ -1,0 +1,223 @@
+<TableLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="fill"
+    android:orientation="vertical"
+    android:stretchColumns="*"
+    android:shrinkColumns="*"
+    tools:context=".CommunityMembersRecordActivity" >
+
+    <TableRow
+            android:id="@+id/tableRow10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            <TextView 
+                android:id="@+id/textAddCommunityStatus"
+                android:layout_span="4"
+                android:layout_height="wrap_content"
+                
+                />
+        </TableRow>
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <Spinner
+            android:id="@+id/spinnerSubdistrict"
+            android:layout_span="1"
+            android:layout_height="wrap_content"
+            />    
+        <Spinner
+            android:id="@+id/spinnerCommunities"
+            android:layout_span="3"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+	<TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+		<TextView
+		    android:id="@+id/textFullname"
+		    android:layout_height="wrap_content"
+		    android:text="@string/fullname"
+		    android:layout_span="1"
+		     />
+		<EditText
+	        android:id="@+id/editFullname"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/hintLastnameFirstname"
+	        android:inputType="textPersonName"
+	        android:layout_span="3" >
+	
+	        <requestFocus />
+    	</EditText>
+
+    </TableRow>
+
+	
+
+	<TableRow
+	    android:id="@+id/tableRow3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+		<TextView
+	        android:id="@+id/textCommunityMembersRecOthersTitle"
+	        android:layout_height="wrap_content"
+	        android:layout_span="1"
+	        android:text="@string/birthdate" />
+
+		<DatePicker
+		    android:id="@+id/dpBirthDate"
+		    android:layout_span="3"
+		    android:layout_height="wrap_content"
+		    android:calendarViewShown="false"
+		    android:layout_gravity="left|top"
+		    />
+	</TableRow>
+	<TableRow
+	    android:id="@+id/tableRow9"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+		<CheckBox 
+		    android:id="@+id/checkUseAge"
+		    android:layout_span="1"
+		    android:layout_height="wrap_content"
+		    android:text="@string/Age"
+		    />
+		<EditText
+	        android:id="@+id/editCommunityMemberAge"
+	        android:layout_height="wrap_content"
+	        android:layout_span="1"
+	        android:inputType="number" />
+		<Spinner
+		    android:id="@+id/spinnerCommunityMemberAgeUnits"
+	        android:layout_height="wrap_content"
+	        android:layout_span="1" />
+		
+	</TableRow>
+	
+    <TableRow
+	    android:id="@+id/tableRow4"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+		
+        <Space 
+            android:layout_span="1"
+            />
+	
+        <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_span="3"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        	<RadioButton
+            	android:id="@+id/radioCommunityMemberRecordMale"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="@string/male" />
+
+        <RadioButton
+            	android:id="@+id/radioCommunityMemberFemale"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="@string/female" />
+    	</RadioGroup>
+        	
+	</TableRow>
+
+    <TableRow
+	    android:id="@+id/tableRow5"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+        <TextView
+        	android:id="@+id/textCardNo"
+        	android:layout_span="1"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="left|center_vertical"
+        	android:text="@string/cardNo"
+        	 />
+        <EditText
+        	android:id="@+id/editCardNo"
+        	android:layout_span="2"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="left|top"
+        	android:inputType="phone"
+        	android:digits="0,1,2,3,4,5,6,7,8,9,/"
+        	android:hint="@string/cardNumber" />
+        
+	</TableRow>
+
+
+    
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    	
+    	<TextView
+            android:id="@+id/textView1"
+            android:layout_span="1"
+            android:layout_height="wrap_content"
+            android:text="@string/nhisIDNumber"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editNHISId"
+            android:layout_span="2"
+            android:layout_height="wrap_content"
+            android:inputType="number" >
+        </EditText>
+        
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/date_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nhisExpiryDate"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+		<DatePicker 
+		    android:id="@+id/dpNhisExpiryDate"
+		    android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|top"
+            android:calendarViewShown="false"
+		    />
+
+        
+    </TableRow>
+    	
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         >
+		
+    	<Button
+        	android:id="@+id/buttonAddCommunityMember"
+        	android:layout_span="2"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="left|top"
+        	android:text="@string/addCommunityMember" />
+        
+        <Button
+            android:id="@+id/buttonCommunityMemberRemove"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:visibility="invisible"
+            android:text="@string/remove"
+            />
+    </TableRow>
+    
+    
+</TableLayout>
+<!-- From: file:/Users/deincrediblelowkey/Documents/Final%20Lap-Go%20HarD!/applied/ashesi-cs-mhealth/mhealth/res/layout/activity_community_members_record.xml -->

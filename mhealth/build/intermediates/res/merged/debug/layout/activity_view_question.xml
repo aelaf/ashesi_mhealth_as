@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   	android:background="@drawable/bgpic"  >
+
+    <Button
+        android:id="@+id/questiontitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Button"
+        android:textColor="@color/background"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp" />
+
+    <View
+        android:id="@+id/divid"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+	<LinearLayout
+	    android:id="@+id/question_div"
+	     android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/background_shadow"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/question1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:textSize="20sp"
+        android:visibility="gone" >
+    </TextView>
+ 
+    <TextView
+        android:id="@+id/date1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:textColor="#10bcc9">
+    </TextView>
+    
+       <EditText 
+        android:id="@+id/editquestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:visibility="gone"
+        android:inputType="textMultiLine"/>
+       "
+    <Button 
+        android:id="@+id/saveedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:text="@string/save"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:background="@color/background"
+        android:layout_margin="15dp"
+        />"
+</LinearLayout>
+<LinearLayout
+	    android:id="@+id/answer_div"
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"        
+        android:background="@drawable/answer_shadow"
+        android:orientation="vertical"
+        android:visibility="gone">
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:textColor="@color/black"
+        android:textSize="20sp" >
+    </TextView>
+	
+    <TextView
+        android:id="@+id/answer_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:textColor="#10bcc9">
+    </TextView>
+
+    <View
+        android:id="@+id/space"
+        android:layout_width="1dp"
+        android:layout_height="50dp"
+        android:text="@string/viewPost" >
+    </View>
+    
+    <ListView 
+        android:id="@+id/answerlinks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    "
+    <ListView 
+	        android:id="@+id/linklist"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:visibility="gone"/>
+	</LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/deincrediblelowkey/Documents/Final%20Lap-Go%20HarD!/applied/ashesi-cs-mhealth/mhealth/res/layout/activity_view_question.xml -->

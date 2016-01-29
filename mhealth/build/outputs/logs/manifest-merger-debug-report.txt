@@ -1,0 +1,237 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:2:1-135:12
+	package
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:3:5-41
+	android:versionName
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml
+		INJECTED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:8:9-35
+uses-permission#android.permission.INTERNET
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:12:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:14:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:15:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:16:22-73
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:17:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:19:22-72
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:20:5-74
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:20:22-71
+uses-featurejk
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:22:5-24:35
+	android:required
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:24:9-32
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:23:9-52
+application
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:26:5-133:19
+	android:label
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:30:9-41
+	android:debuggable
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:28:9-34
+	android:allowBackup
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:27:9-35
+	android:icon
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:29:9-45
+	android:theme
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:31:9-40
+activity#com.ashesi.cs.mhealth.MainActivity
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:32:9-40:20
+	android:label
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:34:13-45
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:33:13-62
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:35:13-39:29
+action#android.intent.action.MAIN
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:38:27-74
+activity#com.ashesi.cs.mhealth.data.Topics
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:41:9-46:20
+	android:label
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:44:13-58
+	android:configChanges
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:43:13-74
+	android:theme
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:45:13-51
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:42:13-61
+activity#com.ashesi.cs.mhealth.OPDCaseActivity
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:47:9-50:20
+	android:label
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:49:13-59
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:48:13-65
+activity#com.ashesi.cs.mhealth.CommunityActivity
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:51:9-54:20
+	android:label
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:53:13-61
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:52:13-67
+activity#com.ashesi.cs.mhealth.CommunityMembersRecordActivity
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:55:9-58:20
+	android:label
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:57:13-76
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:56:13-80
+activity#com.ashesi.cs.mhealth.ReportActivity
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:59:9-62:20
+	android:label
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:61:13-58
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:60:13-64
+activity#com.ashesi.cs.mhealth.SettingsActivity
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:63:9-66:20
+	android:label
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:65:13-60
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:64:13-66
+activity#com.ashesi.cs.mhealth.Synch
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:67:9-70:20
+	android:label
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:69:13-57
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:68:13-55
+activity#com.ashesi.cs.mhealth.CommunityMemberRecordActivity
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:71:9-74:20
+	android:label
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:73:13-75
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:72:13-79
+activity#com.ashesi.cs.mhealth.AddCommunityActivity
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:75:9-78:20
+	android:label
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:77:13-56
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:76:13-70
+activity#com.ashesi.cs.mhealth.HealthPromotionsActivity
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:79:9-80:20
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:79:19-80
+activity#com.ashesi.cs.mhealth.ViewQuestionActivity
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:81:9-85:20
+	android:label
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:83:13-45
+	android:theme
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:84:13-49
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:82:13-70
+activity#com.ashesi.cs.mhealth.KSettingsActivity
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:86:9-91:20
+	android:label
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:88:13-54
+	android:parentActivityName
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:89:13-81
+	android:theme
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:90:13-49
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:87:13-67
+activity#com.ashesi.cs.mhealth.WiFiDirectActivity
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:92:9-96:20
+	android:label
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:94:13-49
+	android:theme
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:95:13-49
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:93:13-68
+activity#com.ashesi.cs.mhealth.KnowledgeActivity
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:97:9-106:20
+	android:label
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:99:13-48
+	android:parentActivityName
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:101:13-76
+	android:launchMode
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:100:13-43
+	android:theme
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:102:13-49
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:98:13-67
+meta-data#android.app.default_searchable
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:103:13-105:79
+	android:value
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:105:17-76
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:104:17-62
+activity#com.ashesi.cs.mhealth.SearchResultsActivity
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:107:9-120:20
+	android:label
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:109:13-48
+	android:parentActivityName
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:111:13-81
+	android:launchMode
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:110:13-43
+	android:theme
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:112:13-49
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:108:13-71
+meta-data#android.app.searchable
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:113:13-115:54
+	android:resource
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:115:17-51
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:114:17-54
+intent-filter#android.intent.action.SEARCH
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:117:13-119:29
+action#android.intent.action.SEARCH
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:118:17-71
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:118:25-68
+activity#com.ashesi.cs.mhealth.DetailReport
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:121:9-124:20
+	android:label
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:123:13-65
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:122:13-62
+activity#com.ashesi.cs.mhealth.HealthPromotionList
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:125:9-128:20
+	android:label
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:127:13-73
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:126:13-69
+activity#com.ashesi.cs.mhealth.TasksActivity
+ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:129:9-132:20
+	android:label
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:131:13-57
+	android:name
+		ADDED from /Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/AndroidManifest.xml:130:13-63

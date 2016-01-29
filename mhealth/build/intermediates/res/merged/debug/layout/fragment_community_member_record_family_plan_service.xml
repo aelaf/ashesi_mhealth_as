@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableLayout1"
+    android:stretchColumns="*"
+    android:shrinkColumns="*"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <TextView 
+            android:id="@+id/textStatus"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Spinner
+            android:id="@+id/spinnerRecord"
+            android:layout_height="wrap_content"
+            android:layout_span="2" />
+
+        <EditText
+            android:id="@+id/editQuantity"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:hint="@string/quantity"
+            android:inputType="numberDecimal" >
+        </EditText>
+
+        <Button
+            android:id="@+id/buttonAdd"
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:text="@string/record" />
+    </TableRow>
+    
+	<TableRow
+	    android:id="@+id/tableRow3"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal">
+        <RadioGroup 
+            android:id="@+id/raidoGroupServiceType"
+            android:layout_span="4"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <RadioButton
+                android:id="@+id/radioNewAcceptor"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="@string/fpNewAcceptor" >
+            	</RadioButton>
+             <RadioButton
+                android:id="@+id/radioContinuing"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="@string/fpContinuing" >
+            	</RadioButton>
+            <RadioButton
+                android:id="@+id/radioRevisit"
+                android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:text="@string/fpRevisit" >
+            	</RadioButton>
+
+        </RadioGroup>
+	</TableRow>
+	    
+    <TableRow
+        android:id="@+id/LinearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:stretchMode="columnWidth"
+            android:numColumns="5" >
+        </GridView>
+    </TableRow>
+
+</TableLayout>
+<!-- From: file:/Users/deincrediblelowkey/Documents/Final%20Lap-Go%20HarD!/applied/ashesi-cs-mhealth/mhealth/res/layout/fragment_community_member_record_family_plan_service.xml -->

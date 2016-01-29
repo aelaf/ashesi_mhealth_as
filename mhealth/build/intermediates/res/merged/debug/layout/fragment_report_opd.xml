@@ -1,0 +1,65 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ReportActivity$DummySectionFragment" 
+         >
+        <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal">
+			 <Button
+	                 android:id="@+id/buttonMode"
+	                 android:layout_width="wrap_content"
+	                 android:layout_height="wrap_content"
+	                 android:text="@string/mode"/>
+	         <TextView
+		        android:id="@+id/section_label"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content" />
+         
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content" 
+             android:orientation="horizontal" >
+
+             <Spinner
+                 android:id="@+id/spinnerOPDReportAgeGroup"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.25" />
+             <Spinner
+                 android:id="@+id/spinnerReportMonth"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="0.25" />
+             <Spinner
+		        android:id="@+id/spinnerReportYear"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+				android:layout_weight="0.25"/>
+             <Spinner
+                android:id="@+id/spinnerGender"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_weight="0.25">
+            </Spinner>
+
+         </LinearLayout>
+                   
+         
+          <GridView
+	        android:id="@+id/gridView1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:numColumns="3"
+	         >
+			
+    		</GridView>
+        
+</LinearLayout>
+<!-- From: file:/Users/deincrediblelowkey/Documents/Final%20Lap-Go%20HarD!/applied/ashesi-cs-mhealth/mhealth/res/layout/fragment_report_opd.xml -->

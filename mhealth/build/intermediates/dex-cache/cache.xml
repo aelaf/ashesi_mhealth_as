@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/libs/commons-codec-1.6.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b7f0fc8f61ecadeb3695f0b9464755eee44374d4">
+        <dex dex="/Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/build/intermediates/pre-dexed/debug/commons-codec-1.6-85db05a36b167446196075eba931955a96bab8a4.jar" />
+    </item>
+    <item
+        jar="/Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/libs/httpclient-cache-4.3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="546eee25fa025a455040bbf1708b0c0490c2311b">
+        <dex dex="/Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/build/intermediates/pre-dexed/debug/httpclient-cache-4.3.1-fd69c63b88af326aedccbeb7d5dfc429f4c8d15c.jar" />
+    </item>
+    <item
+        jar="/Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/libs/android-support-v4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="bd6479f5dd592790607e0504e66e0f31c2b4d308">
+        <dex dex="/Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/build/intermediates/pre-dexed/debug/android-support-v4-02192f139a0de2e0881f1a3497becbbed55cb82e.jar" />
+    </item>
+    <item
+        jar="/Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/libs/httpcore-4.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8dfd6286d04ad9dbf26cdf7d4ef5c8fad430cf30">
+        <dex dex="/Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/build/intermediates/pre-dexed/debug/httpcore-4.3-d5d755c63404f9d69280f3aacf7204ece2b2e725.jar" />
+    </item>
+    <item
+        jar="/Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/libs/fluent-hc-4.3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d8ad35f275f9874f9b5e51097021df537badedb1">
+        <dex dex="/Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/build/intermediates/pre-dexed/debug/fluent-hc-4.3.1-c0aa2b17ce31a0e87e780e5f847fab7a8e92de1c.jar" />
+    </item>
+    <item
+        jar="/Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/libs/commons-logging-1.1.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f">
+        <dex dex="/Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/build/intermediates/pre-dexed/debug/commons-logging-1.1.3-596e82368fed707f1a0846c22d6a2c592c198850.jar" />
+    </item>
+    <item
+        jar="/Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/libs/httpmime-4.3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f49e2348b768a7199e021a97e951df25cd5fb714">
+        <dex dex="/Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/build/intermediates/pre-dexed/debug/httpmime-4.3.1-fbffad459e67ea53f8c7f17eb75a3c6b3773780d.jar" />
+    </item>
+    <item
+        jar="/Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/libs/httpclient-4.3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="0171c67fa04952e76bc9ee1e578fe629db35d769">
+        <dex dex="/Users/deincrediblelowkey/Documents/Final Lap-Go HarD!/applied/ashesi-cs-mhealth/mhealth/build/intermediates/pre-dexed/debug/httpclient-4.3.1-a4f3d37f64872437af3b6d8da3a4477c45dda2ae.jar" />
+    </item>
+
+</items>
