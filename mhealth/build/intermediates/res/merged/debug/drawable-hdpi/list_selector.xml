@@ -10,4 +10,4 @@
 <item android:state_selected="true"
  android:state_pressed="false" 
     android:drawable="@drawable/gradient_bg_hover" />
-</selector><!-- From: file:/Users/deincrediblelowkey/Documents/Final%20Lap-Go%20HarD!/applied/ashesi-cs-mhealth/mhealth/res/drawable-hdpi/list_selector.xml -->
+</selector><!-- From: file:/Users/deincrediblelowkey/Documents/workspace/mhealth_/res/drawable-hdpi/list_selector.xml -->

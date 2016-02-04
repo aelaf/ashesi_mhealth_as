@@ -54,4 +54,4 @@
         android:layout_height="match_parent"
         tools:listitem="@android:layout/simple_list_item_1">
 	</ListView>
-</LinearLayout><!-- From: file:/Users/deincrediblelowkey/Documents/Final%20Lap-Go%20HarD!/applied/ashesi-cs-mhealth/mhealth/res/layout/activity_detail_report.xml -->
+</LinearLayout><!-- From: file:/Users/deincrediblelowkey/Documents/workspace/mhealth_/res/layout/activity_detail_report.xml -->

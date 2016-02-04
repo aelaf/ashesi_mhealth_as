@@ -97,7 +97,22 @@
 				      android:text="@string/HealthPromotion" />
             
         </TableRow>
-        
+
+            <TableRow
+                android:id="@+id/tableRow7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/buttonChildWelfare"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:layout_span="1"
+                    android:text="@string/ChildWelfare" />
+
+            </TableRow>
+
+
         <TableRow
             android:id="@+id/tableRow8"
             android:layout_width="match_parent"
@@ -134,4 +149,4 @@
                 android:src="@drawable/star_ghana" />
 
         </LinearLayout>
-</LinearLayout><!-- From: file:/Users/deincrediblelowkey/Documents/Final%20Lap-Go%20HarD!/applied/ashesi-cs-mhealth/mhealth/res/layout/activity_main.xml -->
+</LinearLayout><!-- From: file:/Users/deincrediblelowkey/Documents/workspace/mhealth_/res/layout/activity_main.xml -->

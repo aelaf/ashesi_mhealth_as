@@ -132,6 +132,7 @@
     <string name="label_me">ME</string>
     <string name="label_peers">PEERS</string>
     <string name="device_synch">Device Synch</string>
+    <string name="child_welfare">Child Welfare</string>
     <string name="other_owner_text">Am I the other Device? </string>
     <string name="knowledgeBtn">Knowledge</string>
     <string name="resourceMaterial">Resource Material</string>
@@ -168,5 +169,11 @@
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
+    <string name="ChildWelfare">Child Welfare</string>
+    <string name="addChild">Add Child</string>
+    <string name="motherId">Mothers ID</string>
+    <string name="dateRegistered">Registeration Date</string>
+    <string name="currWeight">Current weight</string>
+    <string name="hintcurrentweight">Current weight in kgs</string>
 
 </resources>

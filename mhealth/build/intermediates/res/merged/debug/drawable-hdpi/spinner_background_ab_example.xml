@@ -26,4 +26,4 @@
         android:drawable="@drawable/spinner_ab_focused_example" />
     <item android:drawable="@drawable/spinner_ab_default_example" />
 </selector>
-<!-- From: file:/Users/deincrediblelowkey/Documents/Final%20Lap-Go%20HarD!/applied/ashesi-cs-mhealth/mhealth/res/drawable-hdpi/spinner_background_ab_example.xml -->
+<!-- From: file:/Users/deincrediblelowkey/Documents/workspace/mhealth_/res/drawable-hdpi/spinner_background_ab_example.xml -->

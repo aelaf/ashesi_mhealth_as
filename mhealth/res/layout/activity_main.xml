@@ -97,7 +97,22 @@
 				      android:text="@string/HealthPromotion" />
             
         </TableRow>
-        
+
+            <TableRow
+                android:id="@+id/tableRow7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/buttonChildWelfare"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:layout_span="1"
+                    android:text="@string/ChildWelfare" />
+
+            </TableRow>
+
+
         <TableRow
             android:id="@+id/tableRow8"
             android:layout_width="match_parent"

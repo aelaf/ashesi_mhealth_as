@@ -2,4 +2,4 @@
 <set android:interpolator="@android:anim/linear_interpolator" xmlns:android="http://schemas.android.com/apk/res/android">
   <alpha android:duration="3000" android:fromAlpha="0.1" android:toAlpha="1.5">
 </alpha></set>
-<!-- From: file:/Users/deincrediblelowkey/Documents/Final%20Lap-Go%20HarD!/applied/ashesi-cs-mhealth/mhealth/res/anim/anim_fade_in.xml -->
+<!-- From: file:/Users/deincrediblelowkey/Documents/workspace/mhealth_/res/anim/anim_fade_in.xml -->

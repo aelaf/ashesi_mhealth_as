@@ -79,6 +79,11 @@
         <activity android:name="com.ashesi.cs.mhealth.HealthPromotionsActivity" >
         </activity>
         <activity
+            android:name="com.ashesi.cs.mhealth.ChildWelfareActivity"
+            android:label="@string/child_welfare"
+            android:theme="@style/Theme.Example" >
+        </activity>
+        <activity
             android:name="com.ashesi.cs.mhealth.ViewQuestionActivity"
             android:label="@string/viewPost"
             android:theme="@style/Theme.Example" >

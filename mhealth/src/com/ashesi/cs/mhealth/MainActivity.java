@@ -63,6 +63,9 @@ public class MainActivity extends Activity implements OnClickListener, OnItemSel
 		
 		View buttonOpenKnowledge = findViewById(R.id.buttonMainKnowledge);
         buttonOpenKnowledge.setOnClickListener(this);
+
+		View buttonOpenChildWelfare = findViewById(R.id.buttonChildWelfare);
+		buttonOpenChildWelfare.setOnClickListener(this);
 		
 		choId=0;
 		textStatus.setText("enter your name and click open");
@@ -115,7 +118,13 @@ public class MainActivity extends Activity implements OnClickListener, OnItemSel
 				Intent knowledge = new Intent(this,KnowledgeActivity.class);
 				knowledge.putExtra("choId", currentCHO.getId());
 				startActivity(knowledge);
-				break;	
+				break;
+			case R.id.buttonChildWelfare:
+				Intent childwelfare = new Intent(this,ChildWelfareActivity.class);
+				childwelfare.putExtra("choId", currentCHO.getId());
+				startActivity(childwelfare);
+				break;
+
 				
 		}
 	}
@@ -144,6 +153,7 @@ public class MainActivity extends Activity implements OnClickListener, OnItemSel
 		findViewById(R.id.buttonMainOpenRecord).setEnabled(true);
 		findViewById(R.id.buttonMainKnowledge).setEnabled(true);
 		findViewById(R.id.buttonHealthPromotions).setEnabled(true);
+		findViewById(R.id.buttonChildWelfare).setEnabled(true);
 		//findViewById(R.id.buttonAddCommunity).setEnabled(true);
 		textStatus.setText("application open");
 		textStatus.setTextColor(this.getResources().getColor(R.color.text_color_black));

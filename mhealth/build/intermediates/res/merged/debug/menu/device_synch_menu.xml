@@ -13,4 +13,4 @@
         android:title="@string/discover_peers_button"
         android:showAsAction="ifRoom|withText" />
 </menu>
-<!-- From: file:/Users/deincrediblelowkey/Documents/Final%20Lap-Go%20HarD!/applied/ashesi-cs-mhealth/mhealth/res/menu/device_synch_menu.xml -->
+<!-- From: file:/Users/deincrediblelowkey/Documents/workspace/mhealth_/res/menu/device_synch_menu.xml -->
