@@ -68,7 +68,7 @@
                 android:id="@+id/radioRevisit"
                 android:layout_width="wrap_content"
             	android:layout_height="wrap_content"
-            	android:text="@string/fpRevisit" >
+             	android:text="@string/fpRevisit" >
             	</RadioButton>
 
         </RadioGroup>

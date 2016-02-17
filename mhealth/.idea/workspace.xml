@@ -2,9 +2,19 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <devices>
+          <device id="Nexus 10" />
+        </devices>
+      </config>
     </shared>
     <layouts>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_nhis_claim_form_activity.xml">
+        <config>
+          <state>Portrait</state>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/res/menu/opdcase.xml">
         <config>
           <theme>@android:style/Theme.Holo.Light.DarkActionBar</theme>
@@ -17,39 +27,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6bca1ec6-f7a0-4f3b-8181-5758f2b974aa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/androidTest/debug/com/ashesi/cs/mhealth/data/test/BuildConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/NhisClaimFormActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_nhis_claim_form_activity.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-w820dp/values-w820dp.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/AddCommunityActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/AddCommunityActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/AnswerLinks.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/AnswerLinks.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/Answers$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/Answers$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/Answers.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/Answers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/CHOs$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/CHOs$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/CHOs.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/CHOs.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/CHPSZones$CHPSZone.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/CHPSZones$CHPSZone.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/CHPSZones.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/CHPSZones.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/Categories$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/Categories$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/Categories.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/Categories.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/Communities$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/Communities$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/Communities.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/Communities.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityActivity$UploadRecords.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityActivity$UploadRecords.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/CommunityMember.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/CommunityMember.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/CommunityMemberAdapter$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/CommunityMemberAdapter$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/CommunityMemberAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/CommunityMemberAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$DatePickerFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$DatePickerFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$FamilyPlanFragment$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$FamilyPlanFragment$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$FamilyPlanFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$FamilyPlanFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$MainSectionFragment$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$MainSectionFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$MainSectionFragment$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$MainSectionFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$MainSectionFragment$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$MainSectionFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$MainSectionFragment$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$MainSectionFragment$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$MainSectionFragment$5.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$MainSectionFragment$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$MainSectionFragment$6.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$MainSectionFragment$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$MainSectionFragment$7.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$MainSectionFragment$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$MainSectionFragment$8.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$MainSectionFragment$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$MainSectionFragment$9.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$MainSectionFragment$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$MainSectionFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$MainSectionFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$OPDFragment$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$OPDFragment$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$OPDFragment$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$OPDFragment$2.class" />
@@ -59,122 +46,39 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$VaccineFragment$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$VaccineFragment$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$VaccineFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity$VaccineFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CommunityMemberRecordActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/CommunityMembers$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/CommunityMembers$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/CommunityMembers.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/CommunityMembers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ConfirmDelete$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ConfirmDelete$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ConfirmDelete$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ConfirmDelete$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ConfirmDelete.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ConfirmDelete.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CustomOnItemSelectedListener.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/CustomOnItemSelectedListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DataClass.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DataClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DataConnection.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DataConnection.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DetailReport$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DetailReport$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DetailReport$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DetailReport$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DetailReport.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DetailReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DeviceDetailFragment$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DeviceDetailFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DeviceDetailFragment$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DeviceDetailFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DeviceDetailFragment$ClientTask.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DeviceDetailFragment$ClientTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DeviceDetailFragment$ServerTask.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DeviceDetailFragment$ServerTask.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DeviceDetailFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DeviceDetailFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DeviceListFragment$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DeviceListFragment$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DeviceListFragment$WiFiPeerListAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DeviceListFragment$WiFiPeerListAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DeviceListFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DeviceListFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DialogDataSynch.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/DialogDataSynch.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ExpandableResourceAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ExpandableResourceAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/FamilyPlanningGridAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/FamilyPlanningGridAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/FamilyPlanningRecords.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/FamilyPlanningRecords.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/FamilyPlanningReport$FamilyPlanningReportRecord.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/FamilyPlanningReport$FamilyPlanningReportRecord.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/FamilyPlanningReport.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/FamilyPlanningReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/FamilyPlanningService.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/FamilyPlanningService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/FamilyPlanningServices.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/FamilyPlanningServices.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/GPSTracker$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/GPSTracker$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/GPSTracker$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/GPSTracker$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/GPSTracker.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/GPSTracker.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/HealthPromotionList.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/HealthPromotionList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/HealthPromotions.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/HealthPromotions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/HealthPromotionsActivity$XDatePickerFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/HealthPromotionsActivity$XDatePickerFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/HealthPromotionsActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/HealthPromotionsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/KSettingsActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/KSettingsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/KnowledgeActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/KnowledgeActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/KnowledgeActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/KnowledgeActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/LocalLinks.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/LocalLinks.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/LogData.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/LogData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/MainActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/MainActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/MainActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/MainActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/OPDCaseActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/OPDCaseActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/OPDCaseCategories$ODPCaseCategory.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/OPDCaseCategories$ODPCaseCategory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/OPDCaseCategories.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/OPDCaseCategories.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/OPDCaseRecord.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/OPDCaseRecord.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/OPDCaseRecords$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/OPDCaseRecords$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/OPDCaseRecords.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/OPDCaseRecords.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/OPDCaseReportRecord.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/OPDCaseReportRecord.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/OPDCases$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/OPDCases$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/OPDCases.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/OPDCases.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/QuestionListAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/QuestionListAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/Questions$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/Questions$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/Questions.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/Questions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/QuestionsFragment$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/QuestionsFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/QuestionsFragment$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/QuestionsFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/QuestionsFragment$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/QuestionsFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/QuestionsFragment$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/QuestionsFragment$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/QuestionsFragment$5.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/QuestionsFragment$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/QuestionsFragment$6.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/QuestionsFragment$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/QuestionsFragment$7.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/QuestionsFragment$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/QuestionsFragment$8.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/QuestionsFragment$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/QuestionsFragment$9.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/QuestionsFragment$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/QuestionsFragment$Synchronize.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/QuestionsFragment$Synchronize.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/QuestionsFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/QuestionsFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ReportActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ReportActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/R$id.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/R$layout.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/R$menu.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/R$menu.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/R$string.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/R$style.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/R$styleable.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/R$xml.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/R$xml.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/R.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/R.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ReportActivity$ReportFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ReportActivity$ReportFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ReportActivity$SectionsPagerAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ReportActivity$SectionsPagerAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ReportActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ReportActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ResourceFragment$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ResourceFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ResourceFragment$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ResourceFragment$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ResourceFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ResourceFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/ResourceLinks$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/ResourceLinks$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/ResourceLinks.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/ResourceLinks.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ResourceListAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ResourceListAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/ResourceMaterials$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/ResourceMaterials$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/ResourceMaterials.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/knowledge/ResourceMaterials.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/SearchResultsActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/SearchResultsActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/SearchResultsActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/SearchResultsActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/SettingsActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/SettingsActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/SettingsActivity$DataSyncPreferenceFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/SettingsActivity$DataSyncPreferenceFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/SettingsActivity$GeneralPreferenceFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/SettingsActivity$GeneralPreferenceFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/SettingsActivity$NotificationPreferenceFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/SettingsActivity$NotificationPreferenceFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/SettingsActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/SettingsActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/Synch$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/Synch$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/Synch$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/Synch$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/Synch$BackupData.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/Synch$BackupData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/Synch$DownloadCommunities.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/Synch$DownloadCommunities.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/Synch$UpdateID.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/Synch$UpdateID.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/Synch$UploadData.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/Synch$UploadData.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/Synch.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/Synch.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/util/SystemUiHider$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/util/SystemUiHider$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/util/SystemUiHider.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/util/SystemUiHider.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/util/SystemUiHiderBase.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/util/SystemUiHiderBase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/util/SystemUiHiderHoneycomb$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/util/SystemUiHiderHoneycomb$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/util/SystemUiHiderHoneycomb.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/util/SystemUiHiderHoneycomb.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/TCPBase.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/TCPBase.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/Tasks.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/Tasks.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/TasksActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/TasksActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/TasksActivity$SectionsPagerAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/TasksActivity$SectionsPagerAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/TasksActivity$TasksFragment.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/TasksActivity$TasksFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/TasksActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/TasksActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/util/UtiltyFunctions.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/util/UtiltyFunctions.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/VaccinationReport$VaccinationReportRecord.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/VaccinationReport$VaccinationReportRecord.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/VaccinationReport.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/VaccinationReport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/Vaccine.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/Vaccine.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/VaccineGridAdapter.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/VaccineGridAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/VaccineRecords.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/VaccineRecords.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/Vaccines.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/data/Vaccines.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ViewQuestionActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ViewQuestionActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ViewQuestionActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ViewQuestionActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ViewQuestionActivity$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ViewQuestionActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ViewQuestionActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/ViewQuestionActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/WiFiDirectActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/WiFiDirectActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/WiFiDirectActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/WiFiDirectActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/WiFiDirectActivity$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/WiFiDirectActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/WiFiDirectActivity$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/WiFiDirectActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/WiFiDirectActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/WiFiDirectActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/WiFiDirectBroadcastReceiver.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/ashesi/cs/mhealth/WiFiDirectBroadcastReceiver.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
@@ -183,117 +87,24 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/mhealth-debug-unaligned.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/mhealth-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/mhealth-debug.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/mhealth-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug-androidTest.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/ab_background.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/ab_background.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/ab_background_textured_example.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/ab_background_textured_example.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/action_progressbar.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/action_progressbar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_community_member_record.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_community_member_record.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_community_members.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_community_members.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ashesi/cs/mhealth/CommunityMemberRecordActivity.java" afterPath="$PROJECT_DIR$/src/com/ashesi/cs/mhealth/CommunityMemberRecordActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ashesi/cs/mhealth/OPDCaseActivity.java" afterPath="$PROJECT_DIR$/src/com/ashesi/cs/mhealth/OPDCaseActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/generated/source/r/debug/com/ashesi/cs/mhealth/data/R.java" afterPath="$PROJECT_DIR$/build/generated/source/r/debug/com/ashesi/cs/mhealth/data/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_community_members_record.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_community_members_record.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_detail_report.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_detail_report.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_health_promotion.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_health_promotion.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_health_promotion_list.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_health_promotion_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_knowledge.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_knowledge.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_opdcase.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_opdcase.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_post_question.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_post_question.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_questions.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_questions.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_report.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_report.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_search.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_search.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_synch.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_synch.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_tasks.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_tasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_view_question.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/activity_view_question.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/add_community.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/add_community.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/anim/anim_fade_in.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/anim/anim_fade_in.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/anim/anim_fade_out.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/anim/anim_fade_out.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/anim/anim_slide_in_left.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/anim/anim_slide_in_left.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/anim/anim_slide_in_right.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/anim/anim_slide_in_right.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/anim/anim_slide_out_left.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/anim/anim_slide_out_left.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/anim/anim_slide_out_right.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/anim/anim_slide_out_right.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi/answer_shadow.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi/answer_shadow.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/apptheme_switch_inner_holo_light.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/apptheme_switch_inner_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/apptheme_switch_track_holo_light.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/apptheme_switch_track_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi/background_shadow.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-xhdpi/background_shadow.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/botton_selector.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/botton_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/botton_shape_pressed.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/botton_shape_pressed.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/botton_shape_released.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/botton_shape_released.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/btn_cab_done_example.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/btn_cab_done_example.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/community.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/community.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/community_member_record.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/community_member_record.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/community_members_record.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/community_members_record.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/detail_report.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/detail_report.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/details_view.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/details_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/device_detail.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/device_detail.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/device_list.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/device_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/device_synch_menu.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/device_synch_menu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/dialog_age_birthdate.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/dialog_age_birthdate.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/dialog_synch_data.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/dialog_synch_data.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_community_members_record.xml" afterPath="$PROJECT_DIR$/res/layout/activity_community_members_record.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/fragment_community_member_record_family_plan_service.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/fragment_community_member_record_family_plan_service.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/fragment_community_member_record_other.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/fragment_community_member_record_other.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/fragment_community_member_record_vaccine.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/fragment_community_member_record_vaccine.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/fragment_report_opd.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/fragment_report_opd.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/fragment_resource.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/fragment_resource.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/fragment_tasks.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/fragment_tasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/gradient_bg.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/gradient_bg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/gradient_bg_hover.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/gradient_bg_hover.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/health_promotion_list.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/health_promotion_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/image_bg.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/image_bg.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/list_group.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/list_group.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/list_row.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/list_row.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/list_selector.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/list_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi/listview_roundcorner_item.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-mdpi/listview_roundcorner_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/fragment_community_member_record_family_plan_service.xml" afterPath="$PROJECT_DIR$/res/layout/fragment_community_member_record_family_plan_service.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/main.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/main.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/build/outputs/logs/manifest-merger-debug-report.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/menu_community_members_record_context.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/menu_community_members_record_context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/menu_topic_source_options.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/menu_topic_source_options.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeAssets/androidTest/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeAssets/debug/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeResourcesandroidTest/debug/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeResourcesandroidTest/debug/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/mergeResourcesdebug/merger.xml" afterPath="$PROJECT_DIR$/build/intermediates/incremental/mergeResourcesdebug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mhealth.iml" afterPath="$PROJECT_DIR$/mhealth.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/mhealth_simple_list_item.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/mhealth_simple_list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/mhealth_simple_spinner.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/mhealth_simple_spinner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/opdcase.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/opdcase.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/xml/pref_data_sync.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/xml/pref_data_sync.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/xml/pref_general.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/xml/pref_general.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/xml/pref_headers.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/xml/pref_headers.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/xml/pref_knowledge.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/xml/pref_knowledge.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/xml/pref_notification.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/xml/pref_notification.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/progress_horizontal_example.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/progress_horizontal_example.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/question_menu.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/question_menu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/report.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/report.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/resource_row.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/resource_row.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_devices.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/row_devices.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/xml/searchable.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/xml/searchable.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/section_header.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/section_header.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/selectable_background_example.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/selectable_background_example.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/spinner_background_ab_example.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/spinner_background_ab_example.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/synch.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/synch.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/tab_indicator_ab_example.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/drawable-hdpi/tab_indicator_ab_example.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/tasks.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/menu/tasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/test.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/layout/test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-sw720dp-land/values-sw720dp-land.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-sw720dp-land/values-sw720dp-land.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-v11/values-v11.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-v11/values-v11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-v14/values-v14.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values-v14/values-v14.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/build/intermediates/res/merged/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\build\intermediates\pre-dexed\debug\android-support-v4-02192f139a0de2e0881f1a3497becbbed55cb82e.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/android-support-v4-fbf9d51ab5132b9d09d26357caeead196261e827.jar" />
-      <change type="MOVED" beforePath="E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\build\intermediates\pre-dexed\debug\commons-codec-1.6-85db05a36b167446196075eba931955a96bab8a4.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/commons-codec-1.6-fb2df17e18bcff8e87e0ceef7ff78f813ffd1ff9.jar" />
-      <change type="MOVED" beforePath="E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\build\intermediates\pre-dexed\debug\commons-logging-1.1.3-596e82368fed707f1a0846c22d6a2c592c198850.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/commons-logging-1.1.3-5604e3ef8b88360701b5473318b518989ee541e5.jar" />
-      <change type="MOVED" beforePath="E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\build\intermediates\pre-dexed\debug\fluent-hc-4.3.1-c0aa2b17ce31a0e87e780e5f847fab7a8e92de1c.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/fluent-hc-4.3.1-9f65961c8348e8155fcdeca18d3523a924b5583d.jar" />
-      <change type="MOVED" beforePath="E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\build\intermediates\pre-dexed\debug\httpclient-4.3.1-a4f3d37f64872437af3b6d8da3a4477c45dda2ae.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/httpclient-4.3.1-c4ce5fe2d722f0c7a9fd05f321f5219cff456b5c.jar" />
-      <change type="MOVED" beforePath="E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\build\intermediates\pre-dexed\debug\httpclient-cache-4.3.1-fd69c63b88af326aedccbeb7d5dfc429f4c8d15c.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/httpclient-cache-4.3.1-d881763d594d562de3485e867fb7b718e3743c21.jar" />
-      <change type="MOVED" beforePath="E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\build\intermediates\pre-dexed\debug\httpcore-4.3-d5d755c63404f9d69280f3aacf7204ece2b2e725.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/httpcore-4.3-ee5073f958bbaad5b573d91707d4c4a13d22c130.jar" />
-      <change type="MOVED" beforePath="E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\build\intermediates\pre-dexed\debug\httpmime-4.3.1-fbffad459e67ea53f8c7f17eb75a3c6b3773780d.jar" afterPath="$PROJECT_DIR$/build/intermediates/pre-dexed/debug/httpmime-4.3.1-b506a84ee2b94a00c5eced7cfd3ac180d616246f.jar" />
     </list>
     <ignored path="mhealth.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -321,22 +132,72 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="OPDCaseActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/OPDCaseActivity.java">
+      <file leaf-file-name="activity_nhis_claim_form_activity.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_nhis_claim_form_activity.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+              <folding>
+                <element signature="e#1406#1429#0" expanded="true" />
+                <element signature="e#8477#8500#0" expanded="true" />
+                <element signature="e#9064#9088#0" expanded="true" />
+                <element signature="e#9702#9728#0" expanded="true" />
+                <element signature="e#10342#10361#0" expanded="true" />
+                <element signature="e#10703#10726#0" expanded="true" />
+                <element signature="e#11669#11688#0" expanded="true" />
+                <element signature="e#11982#12005#0" expanded="true" />
+                <element signature="e#12981#13004#0" expanded="true" />
+                <element signature="e#13302#13329#0" expanded="true" />
+                <element signature="e#14228#14247#0" expanded="true" />
+                <element signature="e#14790#14812#0" expanded="true" />
+                <element signature="e#15710#15729#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CHOs.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/CHOs.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="64" column="63" selection-start-line="64" selection-start-column="63" selection-end-line="64" selection-end-column="63" />
+              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_opdcase.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/activity_opdcase.xml">
+      <file leaf-file-name="activity_knowledge.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_knowledge.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="167" column="17" selection-start-line="167" selection-start-column="17" selection-end-line="167" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_community_member_record_other.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/fragment_community_member_record_other.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
@@ -344,41 +205,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
-              <folding />
-            </state>
+      <file leaf-file-name="activity_community_member_record.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_community_member_record.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommunityActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/CommunityActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
+          <provider editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CommunityMemberRecordActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/CommunityMemberRecordActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="169" column="4" selection-start-line="169" selection-start-column="4" selection-end-line="169" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataConnection.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/DataConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68">
-              <caret line="141" column="20" selection-start-line="141" selection-start-column="20" selection-end-line="141" selection-end-column="20" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -390,27 +224,53 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.862069">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="173" column="19" selection-start-line="168" selection-start-column="6" selection-end-line="173" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_community_members.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/activity_community_members.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="OPDCaseRecords.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/OPDCaseRecords.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OPDCaseRecord.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/OPDCaseRecord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="135" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="135" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClaimRecord.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/ClaimRecord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.3212435">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -1215,7 +1075,26 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/project.properties" />
+        <option value="$PROJECT_DIR$/src/com/ashesi/cs/mhealth/nhis_claim_form.java" />
+        <option value="$PROJECT_DIR$/src/com/ashesi/cs/mhealth/nhis_claim_form_activity.java" />
+        <option value="$PROJECT_DIR$/src/com/ashesi/cs/mhealth/Nhis_claim_form_activity.java" />
+        <option value="$PROJECT_DIR$/src/com/ashesi/cs/mhealth/NhisClaimFormActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/ashesi/cs/mhealth/OPDCaseActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_community_members_record.xml" />
+        <option value="$PROJECT_DIR$/res/layout/fragment_community_member_record_family_plan_service.xml" />
+        <option value="$PROJECT_DIR$/src/com/ashesi/cs/mhealth/CommunityMemberRecordActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/ashesi/cs/mhealth/DataClass.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/layout/activity_nhis_claim_form_activity.xml" />
+        <option value="$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/ClaimRecord.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="NamedScopeManager">
@@ -1234,7 +1113,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -1250,7 +1129,117 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mhealth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mhealth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mhealth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mhealth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mhealth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mhealth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mhealth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mhealth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mhealth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mhealth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mhealth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mhealth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mhealth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mhealth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mhealth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1343,52 +1332,23 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mhealth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mhealth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mhealth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mhealth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mhealth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mhealth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="3004492eeef03100" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_9_API_23" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="228" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.packageName">
+      <recent name="com.ashesi.cs.mhealth" />
+    </key>
+    <key name="android.template.parentActivityClass">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager" selected="Android Application.mhealth">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1590,30 +1550,39 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24361159" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2265758" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22827938" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29471892" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18154311" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270869" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24205749" sideWeight="0.79028696" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24432677" sideWeight="0.49403748" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24205749" sideWeight="0.20971303" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24432677" sideWeight="0.50596255" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1623,6 +1592,36 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2265758" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5621806" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290469" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7512777" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3270869" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24432677" sideWeight="0.49118942" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24432677" sideWeight="0.5088106" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1640,198 +1639,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/OPDCaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="63" selection-start-line="64" selection-start-column="63" selection-end-line="64" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proguard-project.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_opdcase.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/CommunityActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/CommunityMemberRecordActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_community_members_record.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_community_members.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/OPDCaseActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="63" selection-start-line="64" selection-start-column="63" selection-end-line="64" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proguard-project.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_opdcase.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/CommunityActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/CommunityMemberRecordActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_community_members_record.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_community_members.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/KSettingsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/HealthPromotionList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/AddCommunityActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1850,16 +1657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/DataClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="160" column="37" selection-start-line="160" selection-start-column="37" selection-end-line="160" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1882,7 +1679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1890,7 +1686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1898,7 +1693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1913,26 +1707,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/OPDCaseActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/CommunityActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="63" selection-start-line="64" selection-start-column="63" selection-end-line="64" selection-end-column="63" />
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/DataConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="190" column="8" selection-start-line="190" selection-start-column="8" selection-end-line="190" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/ResourceFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/KSettingsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/mhealth_simple_spinner.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
+    <entry file="file://$PROJECT_DIR$/res/layout/mhealth_simple_list_item.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="10" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_community_members.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/KnowledgeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/OPDCaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/fragment_community_member_record_family_plan_service.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/WiFiDirectBroadcastReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/ViewQuestionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/SearchResultsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/CommunityMemberRecordActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1066" column="9" selection-start-line="1066" selection-start-column="9" selection-end-line="1066" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/NhisClaimFormActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings_activity_settings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1940,16 +1845,160 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/CommunityActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/CommunityMembers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project.properties">
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/TabsPagerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/VaccineGridAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/knowledge/JSONOPDCases.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/knowledge/JSONCategories.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/fragment_report_opd.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/fragment_resource.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/fragment_tasks.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/resource_row.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="116" column="16" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/DataClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="494" column="45" selection-start-line="494" selection-start-column="45" selection-end-line="494" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#5671#5672#0" expanded="false" />
+            <element signature="e#5689#5690#0" expanded="false" />
+            <element signature="e#5741#5742#0" expanded="false" />
+            <element signature="e#5760#5761#0" expanded="false" />
+            <element signature="e#28668#28669#0" expanded="false" />
+            <element signature="e#28689#28690#0" expanded="false" />
+            <element signature="e#28733#28734#0" expanded="false" />
+            <element signature="e#28762#28763#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="170" column="24" selection-start-line="170" selection-start-column="24" selection-end-line="170" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_questions.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/fragment_community_member_record_other.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -1961,25 +2010,98 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.862069">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="173" column="19" selection-start-line="168" selection-start-column="6" selection-end-line="173" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/CommunityMemberRecordActivity.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_community_member_record.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_knowledge.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="169" column="4" selection-start-line="169" selection-start-column="4" selection-end-line="169" selection-end-column="4" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/DataConnection.java">
+    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68">
-          <caret line="141" column="20" selection-start-line="141" selection-start-column="20" selection-end-line="141" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="167" column="17" selection-start-line="167" selection-start-column="17" selection-end-line="167" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/CHOs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/OPDCaseRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="135" column="5" selection-start-line="9" selection-start-column="4" selection-end-line="135" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_nhis_claim_form_activity.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+          <folding>
+            <element signature="e#1406#1429#0" expanded="true" />
+            <element signature="e#8477#8500#0" expanded="true" />
+            <element signature="e#9064#9088#0" expanded="true" />
+            <element signature="e#9702#9728#0" expanded="true" />
+            <element signature="e#10342#10361#0" expanded="true" />
+            <element signature="e#10703#10726#0" expanded="true" />
+            <element signature="e#11669#11688#0" expanded="true" />
+            <element signature="e#11982#12005#0" expanded="true" />
+            <element signature="e#12981#13004#0" expanded="true" />
+            <element signature="e#13302#13329#0" expanded="true" />
+            <element signature="e#14228#14247#0" expanded="true" />
+            <element signature="e#14790#14812#0" expanded="true" />
+            <element signature="e#15710#15729#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/OPDCaseRecords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/ClaimRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3212435">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

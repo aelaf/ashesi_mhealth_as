@@ -168,5 +168,17 @@
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
-
+    <string name="dateOfService">Date of Service Provision</string>
+    <string name="typeOfService">Type of Services</string>
+    <string name="typeOfOutcomes">Outcomes</string>
+    <string name="typeOfAttendance">Type of Attendance</string>
+    <string name="procedure">Procedure</string>
+    <string name="diagnosis">Diagnosis</string>
+    <string name="investigation">Investigation</string>
+    <string name="medicines">Medicines</string>
+    <string name="add_claim">Add Claim</string>
+    <string name="add_medicine">Add</string>
+    <string name="add_investigation">Add</string>
+    <string name="add_diagnosis">Add</string>
+    <string name="add_procedure">Add</string>
 </resources>

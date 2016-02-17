@@ -9,6 +9,7 @@ import com.ashesi.cs.mhealth.data.R.id;
 import com.ashesi.cs.mhealth.data.R.layout;
 import com.ashesi.cs.mhealth.data.R.menu;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.app.Activity;
 import android.util.Log;
@@ -21,6 +22,7 @@ import android.widget.TextView;
 public class OPDCaseActivity extends Activity {
 
 	ArrayList<OPDCase> listOPDCases;
+	@SuppressLint("LongLogTag")
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

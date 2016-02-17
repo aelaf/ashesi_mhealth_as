@@ -23,6 +23,8 @@
         android:name="android.hardware.wifi.direct"
         android:required="true" />
 
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:debuggable="true"
@@ -129,6 +131,8 @@
         <activity
             android:name="com.ashesi.cs.mhealth.TasksActivity"
             android:label="@string/title_activity_tasks" >
+        </activity>
+        <activity android:name="com.ashesi.cs.mhealth.NhisClaimFormActivity" >
         </activity>
     </application>
 

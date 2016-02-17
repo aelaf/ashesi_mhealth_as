@@ -181,7 +181,7 @@ public class CommunityMemberRecordActivity extends FragmentActivity implements A
 	}
 	/**
 	 * use this method to set state if it changes in the fragments
-	 * @param id
+	 * @param state
 	 */
 	public void setState(int state){
 		this.state=state;
@@ -1052,9 +1052,11 @@ public class CommunityMemberRecordActivity extends FragmentActivity implements A
 		@Override
 		public void onClick(View v) {
 			if(v.getId()==R.id.buttonCommunityMemberRecordOPDCase){
-				DatePickerFragment datePicker=new DatePickerFragment();
-				datePicker.showDatePicker(this.getActivity().getSupportFragmentManager(), this);
+				//DatePickerFragment datePicker=new DatePickerFragment();
+				//datePicker.showDatePicker(this.getActivity().getSupportFragmentManager(), this);
 				//recordOPDCase();
+				Intent knowledge = new Intent(this.getActivity(),NhisClaimFormActivity.class);
+				startActivity(knowledge);
 			}
 		}
 		
