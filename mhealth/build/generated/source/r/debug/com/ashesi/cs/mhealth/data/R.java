@@ -322,15 +322,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int btn_connect=0x7f0c00bb;
         public static final int btn_disconnect=0x7f0c00bc;
         public static final int btn_start_client=0x7f0c00bd;
-        public static final int button=0x7f0c0062;
         public static final int button2=0x7f0c0095;
-        public static final int button3=0x7f0c0063;
-        public static final int button4=0x7f0c0065;
-        public static final int button5=0x7f0c0066;
-        public static final int button6=0x7f0c006a;
-        public static final int button7=0x7f0c006b;
-        public static final int button8=0x7f0c006d;
-        public static final int button9=0x7f0c006e;
         public static final int buttonAdd=0x7f0c0053;
         public static final int buttonAddCommunity=0x7f0c0059;
         public static final int buttonAddCommunityMember=0x7f0c002b;
@@ -459,6 +451,10 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int searchLabel=0x7f0c009a;
         public static final int searchlist=0x7f0c009b;
         public static final int section_label=0x7f0c00de;
+        public static final int setButtonForVisitFour=0x7f0c006d;
+        public static final int setButtonForVisitOne=0x7f0c0062;
+        public static final int setButtonForVisitThree=0x7f0c006a;
+        public static final int setButtonForVisitTwo=0x7f0c0065;
         public static final int space=0x7f0c00b1;
         public static final int spacer=0x7f0c008f;
         public static final int spinner1=0x7f0c008e;
@@ -537,11 +533,7 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int textView1=0x7f0c0025;
         public static final int textView10=0x7f0c0045;
         public static final int textView11=0x7f0c0070;
-        public static final int textView12=0x7f0c0061;
         public static final int textView13=0x7f0c005e;
-        public static final int textView14=0x7f0c0064;
-        public static final int textView15=0x7f0c0069;
-        public static final int textView16=0x7f0c006c;
         public static final int textView2=0x7f0c003a;
         public static final int textView3=0x7f0c0033;
         public static final int textView4=0x7f0c0035;
@@ -560,8 +552,16 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int txt_latitude=0x7f0c00b4;
         public static final int txt_longitude=0x7f0c00b5;
         public static final int txt_population=0x7f0c00b7;
+        public static final int unsetButtonForVisitFour=0x7f0c006e;
+        public static final int unsetButtonForVisitOne=0x7f0c0063;
+        public static final int unsetButtonForVisitThree=0x7f0c006b;
+        public static final int unsetButtonForVisitTwo=0x7f0c0066;
         public static final int username=0x7f0c00ea;
         public static final int venue_txt=0x7f0c0039;
+        public static final int visitFourTextView=0x7f0c006c;
+        public static final int visitOneTextView=0x7f0c0061;
+        public static final int visitThreeTextView=0x7f0c0069;
+        public static final int visitTwoTextView=0x7f0c0064;
     }
     public static final class layout {
         public static final int action_progressbar=0x7f030000;

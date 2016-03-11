@@ -57,38 +57,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Procedure.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/Procedure.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-              <folding>
-                <element signature="e#548#549#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
-                <element signature="e#609#610#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
-                <element signature="e#843#844#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Investigation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/Investigation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-              <folding>
-                <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
-                <element signature="e#895#896#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Procedures.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/Procedures.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -152,43 +120,62 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NhisClaimFormActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NhisClaimFormActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/NhisClaimFormActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.37365368">
+              <caret line="206" column="38" selection-start-line="206" selection-start-column="38" selection-end-line="206" selection-end-column="38" />
               <folding>
-                <element signature="e#2449#2464#0" expanded="true" />
-                <element signature="e#2991#3000#0" expanded="true" />
-                <element signature="e#3602#3620#0" expanded="true" />
-                <element signature="e#4174#4185#0" expanded="true" />
-                <element signature="e#4780#4795#0" expanded="true" />
-                <element signature="e#5335#5345#0" expanded="true" />
+                <element signature="e#4580#4595#0" expanded="true" />
+                <element signature="e#5132#5141#0" expanded="true" />
+                <element signature="e#5753#5771#0" expanded="true" />
+                <element signature="e#6335#6346#0" expanded="true" />
+                <element signature="e#6952#6967#0" expanded="true" />
+                <element signature="e#7518#7528#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommunityMemberRecordActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/CommunityMemberRecordActivity.java">
+      <file leaf-file-name="activity_nhis_claim_form_activity.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_nhis_claim_form_activity.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="18.096935">
-              <caret line="1114" column="28" selection-start-line="1114" selection-start-column="28" selection-end-line="1114" selection-end-column="28" />
+            <state vertical-scroll-proportion="16.594406">
+              <caret line="84" column="13" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TypeOfAttendances.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/TypeOfAttendances.java">
+      <file leaf-file-name="CommunityMemberRecordActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/CommunityMemberRecordActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2081#2099#0" expanded="true" />
-                <element signature="e#2427#2445#0" expanded="true" />
-              </folding>
+              <caret line="976" column="47" selection-start-line="976" selection-start-column="33" selection-end-line="976" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommunityMembers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/CommunityMembers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="198" column="12" selection-start-line="198" selection-start-column="12" selection-end-line="198" selection-end-column="85" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommunityMember.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/CommunityMember.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -1003,7 +990,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/MedicinRecords.java" />
         <option value="$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/Bundles.java" />
-        <option value="$PROJECT_DIR$/res/layout/activity_nhis_claim_form_activity.xml" />
         <option value="$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/TypeOffAttendance.java" />
         <option value="$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/OPDCases.java" />
         <option value="$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/OPDCase.java" />
@@ -1025,9 +1011,11 @@
         <option value="$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/Procedure.java" />
         <option value="$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/Medicine.java" />
         <option value="$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/Investigation.java" />
-        <option value="$PROJECT_DIR$/src/com/ashesi/cs/mhealth/NhisClaimFormActivity.java" />
         <option value="$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/Procedures.java" />
         <option value="$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/Medicines.java" />
+        <option value="$PROJECT_DIR$/src/com/ashesi/cs/mhealth/CommunityMemberRecordActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_nhis_claim_form_activity.xml" />
+        <option value="$PROJECT_DIR$/src/com/ashesi/cs/mhealth/NhisClaimFormActivity.java" />
       </list>
     </option>
   </component>
@@ -1089,6 +1077,28 @@
               <option name="myItemId" value="mhealth" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mhealth" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mhealth" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1128,6 +1138,16 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mhealth" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mhealth" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1369,6 +1389,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32722372" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297929" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938007" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953313" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1387,7 +1408,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297929" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991913" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1407,27 +1427,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/Investigations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="47" selection-start-line="69" selection-start-column="47" selection-end-line="69" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/Outcomes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="58" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1838#1847#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/Medicines.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1454,12 +1453,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2449#2464#0" expanded="true" />
-            <element signature="e#2991#3000#0" expanded="true" />
-            <element signature="e#3602#3620#0" expanded="true" />
-            <element signature="e#4174#4185#0" expanded="true" />
-            <element signature="e#4780#4795#0" expanded="true" />
-            <element signature="e#5335#5345#0" expanded="true" />
+            <element signature="e#4580#4595#0" expanded="true" />
+            <element signature="e#5132#5141#0" expanded="true" />
+            <element signature="e#5753#5771#0" expanded="true" />
+            <element signature="e#6335#6346#0" expanded="true" />
+            <element signature="e#6952#6967#0" expanded="true" />
+            <element signature="e#7518#7528#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1477,9 +1476,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2081#2099#0" expanded="true" />
-            <element signature="e#2427#2445#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2081#2099#0" expanded="false" />
+            <element signature="e#2427#2445#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1518,6 +1517,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1525,13 +1525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/generated/source/r/debug/com/ashesi/cs/mhealth/data/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1989164">
-          <caret line="297" column="74" selection-start-line="297" selection-start-column="74" selection-end-line="297" selection-end-column="74" />
           <folding />
         </state>
       </provider>
@@ -1562,16 +1555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_nhis_claim_form_activity.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.238095">
-          <caret line="270" column="8" selection-start-line="270" selection-start-column="8" selection-end-line="270" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1624,6 +1607,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="134" column="24" selection-start-line="134" selection-start-column="24" selection-end-line="134" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1631,6 +1615,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1639,10 +1624,10 @@
         <state vertical-scroll-proportion="-34.826088">
           <caret line="964" column="12" selection-start-line="964" selection-start-column="12" selection-end-line="964" selection-end-column="12" />
           <folding>
-            <element signature="e#31070#31071#0" expanded="true" />
-            <element signature="e#31091#31092#0" expanded="true" />
-            <element signature="e#31135#31136#0" expanded="true" />
-            <element signature="e#31164#31165#0" expanded="true" />
+            <element signature="e#31070#31071#0" expanded="false" />
+            <element signature="e#31091#31092#0" expanded="false" />
+            <element signature="e#31135#31136#0" expanded="false" />
+            <element signature="e#31164#31165#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1706,10 +1691,10 @@
         <state vertical-scroll-proportion="0.13421707">
           <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding>
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="false" />
+            <element signature="e#367#368#0" expanded="false" />
+            <element signature="e#494#495#0" expanded="false" />
+            <element signature="e#538#539#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1742,10 +1727,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding>
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="false" />
+            <element signature="e#426#427#0" expanded="false" />
+            <element signature="e#472#473#0" expanded="false" />
+            <element signature="e#508#509#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1755,10 +1740,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="72" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="72" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#1996#2011#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#734#735#0" expanded="false" />
+            <element signature="e#764#765#0" expanded="false" />
+            <element signature="e#1996#2011#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1781,9 +1766,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2081#2099#0" expanded="true" />
-            <element signature="e#2427#2445#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2081#2099#0" expanded="false" />
+            <element signature="e#2427#2445#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1848,10 +1833,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/Medicine.java">
+    <entry file="file://$PROJECT_DIR$/build/generated/source/r/debug/com/ashesi/cs/mhealth/data/R.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        <state vertical-scroll-proportion="-9.695652">
+          <caret line="304" column="31" selection-start-line="304" selection-start-column="31" selection-end-line="304" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1869,26 +1854,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/NhisClaimFormActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/Medicine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="e#2449#2464#0" expanded="true" />
-            <element signature="e#2991#3000#0" expanded="true" />
-            <element signature="e#3602#3620#0" expanded="true" />
-            <element signature="e#4174#4185#0" expanded="true" />
-            <element signature="e#4780#4795#0" expanded="true" />
-            <element signature="e#5335#5345#0" expanded="true" />
-          </folding>
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/CommunityMemberRecordActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="18.096935">
-          <caret line="1114" column="28" selection-start-line="1114" selection-start-column="28" selection-end-line="1114" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="976" column="47" selection-start-line="976" selection-start-column="33" selection-end-line="976" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/CommunityMembers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="198" column="12" selection-start-line="198" selection-start-column="12" selection-end-line="198" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/data/CommunityMember.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_nhis_claim_form_activity.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="16.594406">
+          <caret line="84" column="13" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ashesi/cs/mhealth/NhisClaimFormActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37365368">
+          <caret line="206" column="38" selection-start-line="206" selection-start-column="38" selection-end-line="206" selection-end-column="38" />
+          <folding>
+            <element signature="e#4580#4595#0" expanded="true" />
+            <element signature="e#5132#5141#0" expanded="true" />
+            <element signature="e#5753#5771#0" expanded="true" />
+            <element signature="e#6335#6346#0" expanded="true" />
+            <element signature="e#6952#6967#0" expanded="true" />
+            <element signature="e#7518#7528#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
