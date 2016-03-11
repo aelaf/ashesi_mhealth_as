@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/E:/Users/ice/Documents/George/Applied%20Project/Applied%20Project/ashesi_mhealth_as/mhealth/res/values/strings_activity_settings.xml -->
+    <!-- From: file:/C:/Users/george.assan/Documents/George/Applied%20Project/Applied%20Project/ashesi_mhealth_as/mhealth/res/values/strings_activity_settings.xml -->
     <eat-comment/>
     <string-array name="pref_example_list_titles">
         <item>Always</item>
@@ -28,7 +28,7 @@
         <item>360</item>
         <item>-1</item>
     </string-array>
-    <!-- From: file:/E:/Users/ice/Documents/George/Applied%20Project/Applied%20Project/ashesi_mhealth_as/mhealth/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/george.assan/Documents/George/Applied%20Project/Applied%20Project/ashesi_mhealth_as/mhealth/res/values/colors.xml -->
     <eat-comment/>
     <color name="AliceBlue">#F0F8FF</color>
     <color name="AntiqueWhite">#FAEBD7</color>
@@ -197,13 +197,13 @@
     <color name="white">#FFFFFF</color>
     <color name="yellow">#FFFF00</color>
     <declare-styleable name="ButtonBarContainerTheme"><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="buttonBarButtonStyle"/></declare-styleable>
-    <!-- From: file:/E:/Users/ice/Documents/George/Applied%20Project/Applied%20Project/ashesi_mhealth_as/mhealth/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/george.assan/Documents/George/Applied%20Project/Applied%20Project/ashesi_mhealth_as/mhealth/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="phone_list_height">200dp</dimen>
     <dimen name="tablet_list_width">300dp</dimen>
-    <!-- From: file:/E:/Users/ice/Documents/George/Applied%20Project/Applied%20Project/ashesi_mhealth_as/mhealth/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/george.assan/Documents/George/Applied%20Project/Applied%20Project/ashesi_mhealth_as/mhealth/res/values/strings.xml -->
     <eat-comment/>
     <string name="Age">Age</string>
     <string name="AllPosts">All Posts</string>
@@ -312,7 +312,7 @@
     <string name="picture">Picture</string>
     <string name="postQ">Post Question</string>
     <string name="posts">posts</string>
-    <!-- From: file:/E:/Users/ice/Documents/George/Applied%20Project/Applied%20Project/ashesi_mhealth_as/mhealth/res/values/strings_activity_settings.xml -->
+    <!-- From: file:/C:/Users/george.assan/Documents/George/Applied%20Project/Applied%20Project/ashesi_mhealth_as/mhealth/res/values/strings_activity_settings.xml -->
     <eat-comment/>
     <string name="pref_default_display_name">John Smith</string>
     <string name="pref_description_social_recommendations">Recommendations for people to contact based on your message history</string>
@@ -328,7 +328,7 @@
     <string name="pref_title_sync_frequency">Sync frequency</string>
     <string name="pref_title_system_sync_settings">System sync settings</string>
     <string name="pref_title_vibrate">Vibrate</string>
-    <!-- From: file:/E:/Users/ice/Documents/George/Applied%20Project/Applied%20Project/ashesi_mhealth_as/mhealth/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/george.assan/Documents/George/Applied%20Project/Applied%20Project/ashesi_mhealth_as/mhealth/res/values/strings.xml -->
     <eat-comment/>
     <string name="prev">previous</string>
     <string name="procedure">Procedure</string>
@@ -373,10 +373,10 @@
     <string name="title_activity_knowledge">mHealth Knowledge</string>
     <string name="title_activity_opdcase">OPDCaseActivity</string>
     <string name="title_activity_report">Report</string>
-    <!-- From: file:/E:/Users/ice/Documents/George/Applied%20Project/Applied%20Project/ashesi_mhealth_as/mhealth/res/values/strings_activity_settings.xml -->
+    <!-- From: file:/C:/Users/george.assan/Documents/George/Applied%20Project/Applied%20Project/ashesi_mhealth_as/mhealth/res/values/strings_activity_settings.xml -->
     <eat-comment/>
     <string name="title_activity_settings">Settings</string>
-    <!-- From: file:/E:/Users/ice/Documents/George/Applied%20Project/Applied%20Project/ashesi_mhealth_as/mhealth/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/george.assan/Documents/George/Applied%20Project/Applied%20Project/ashesi_mhealth_as/mhealth/res/values/strings.xml -->
     <eat-comment/>
     <string name="title_activity_synch">Synch</string>
     <string name="title_activity_tasks">Tasks</string>
@@ -408,7 +408,7 @@
     <string name="viewTopics">view topics</string>
     <string name="year">Years</string>
     <string name="yes">Yes</string>
-    <!-- From: file:/E:/Users/ice/Documents/George/Applied%20Project/Applied%20Project/ashesi_mhealth_as/mhealth/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/george.assan/Documents/George/Applied%20Project/Applied%20Project/ashesi_mhealth_as/mhealth/res/values/styles.xml -->
     <eat-comment/>
     <style name="ActionBar.Solid.Example" parent="@android:style/Widget.Holo.Light.ActionBar.Solid">
         <item name="android:background">@drawable/ab_solid_example</item>

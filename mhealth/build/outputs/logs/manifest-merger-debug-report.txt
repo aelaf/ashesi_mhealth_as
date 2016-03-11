@@ -1,245 +1,245 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:2:1-139:12
-	xmlns:android
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:2:11-69
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:2:1-139:12
 	package
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:3:5-41
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:3:5-41
 	android:versionName
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:5:5-30
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:5:5-30
 	android:versionCode
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:4:5-28
-		INJECTED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml
-		INJECTED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml
+		INJECTED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:7:5-9:41
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:9:9-38
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:9:9-38
 	android:minSdkVersion
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:8:9-35
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:8:9-35
 uses-permission#android.permission.INTERNET
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:11:5-67
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:11:5-67
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:11:22-64
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:11:22-64
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:12:5-81
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:12:5-81
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:12:22-78
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:12:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:13:5-79
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:13:5-79
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:13:22-76
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:13:22-76
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:14:5-79
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:14:5-79
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:14:22-76
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:14:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:15:5-76
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:15:5-76
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:15:22-73
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:15:22-73
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:16:5-76
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:16:5-76
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:16:22-73
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:16:22-73
 uses-permission#android.permission.CHANGE_NETWORK_STATE
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:17:5-79
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:17:5-79
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:17:22-76
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:17:22-76
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:19:5-75
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:19:5-75
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:19:22-72
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:19:22-72
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:20:5-74
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:20:5-74
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:20:22-71
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:20:22-71
 uses-featurejk
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:22:5-24:35
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:22:5-24:35
 	android:required
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:24:9-32
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:24:9-32
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:23:9-52
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:23:9-52
 android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:26:5-88
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:26:5-88
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:26:30-85
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:26:30-85
 application
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:28:5-137:19
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:28:5-137:19
 	android:label
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:32:9-41
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:32:9-41
 	android:debuggable
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:30:9-34
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:30:9-34
 	android:allowBackup
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:29:9-35
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:29:9-35
 	android:icon
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:31:9-45
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:31:9-45
 	android:theme
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:33:9-40
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:33:9-40
 activity#com.ashesi.cs.mhealth.MainActivity
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:34:9-42:20
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:34:9-42:20
 	android:label
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:36:13-45
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:36:13-45
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:35:13-62
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:35:13-62
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:37:13-41:29
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:37:13-41:29
 action#android.intent.action.MAIN
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:38:17-69
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:38:17-69
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:38:25-66
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:38:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:40:17-77
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:40:17-77
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:40:27-74
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:40:27-74
 activity#com.ashesi.cs.mhealth.data.Topics
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:43:9-48:20
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:43:9-48:20
 	android:label
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:46:13-58
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:46:13-58
 	android:configChanges
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:45:13-74
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:45:13-74
 	android:theme
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:47:13-51
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:47:13-51
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:44:13-35
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:44:13-35
 activity#com.ashesi.cs.mhealth.OPDCaseActivity
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:49:9-52:20
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:49:9-52:20
 	android:label
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:51:13-59
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:51:13-59
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:50:13-65
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:50:13-65
 activity#com.ashesi.cs.mhealth.CommunityActivity
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:53:9-56:20
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:53:9-56:20
 	android:label
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:55:13-61
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:55:13-61
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:54:13-67
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:54:13-67
 activity#com.ashesi.cs.mhealth.CommunityMembersRecordActivity
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:57:9-60:20
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:57:9-60:20
 	android:label
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:59:13-76
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:59:13-76
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:58:13-80
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:58:13-80
 activity#com.ashesi.cs.mhealth.ReportActivity
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:61:9-64:20
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:61:9-64:20
 	android:label
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:63:13-58
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:63:13-58
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:62:13-64
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:62:13-64
 activity#com.ashesi.cs.mhealth.SettingsActivity
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:65:9-68:20
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:65:9-68:20
 	android:label
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:67:13-60
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:67:13-60
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:66:13-66
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:66:13-66
 activity#com.ashesi.cs.mhealth.Synch
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:69:9-72:20
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:69:9-72:20
 	android:label
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:71:13-57
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:71:13-57
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:70:13-55
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:70:13-55
 activity#com.ashesi.cs.mhealth.CommunityMemberRecordActivity
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:73:9-76:20
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:73:9-76:20
 	android:label
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:75:13-75
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:75:13-75
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:74:13-79
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:74:13-79
 activity#com.ashesi.cs.mhealth.AddCommunityActivity
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:77:9-80:20
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:77:9-80:20
 	android:label
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:79:13-56
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:79:13-56
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:78:13-70
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:78:13-70
 activity#com.ashesi.cs.mhealth.HealthPromotionsActivity
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:81:9-82:20
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:81:9-82:20
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:81:19-80
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:81:19-80
 activity#com.ashesi.cs.mhealth.ViewQuestionActivity
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:83:9-87:20
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:83:9-87:20
 	android:label
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:85:13-45
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:85:13-45
 	android:theme
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:86:13-49
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:86:13-49
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:84:13-70
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:84:13-70
 activity#com.ashesi.cs.mhealth.KSettingsActivity
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:88:9-93:20
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:88:9-93:20
 	android:label
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:90:13-54
-	android:theme
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:92:13-49
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:90:13-54
 	android:parentActivityName
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:91:13-81
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:91:13-81
+	android:theme
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:92:13-49
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:89:13-67
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:89:13-67
 activity#com.ashesi.cs.mhealth.WiFiDirectActivity
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:94:9-98:20
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:94:9-98:20
 	android:label
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:96:13-49
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:96:13-49
 	android:theme
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:97:13-49
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:97:13-49
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:95:13-68
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:95:13-68
 activity#com.ashesi.cs.mhealth.KnowledgeActivity
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:99:9-108:20
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:99:9-108:20
 	android:label
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:101:13-48
-	android:theme
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:104:13-49
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:101:13-48
 	android:parentActivityName
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:103:13-76
-	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:100:13-67
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:103:13-76
 	android:launchMode
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:102:13-43
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:102:13-43
+	android:theme
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:104:13-49
+	android:name
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:100:13-67
 meta-data#android.app.default_searchable
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:105:13-107:79
-	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:106:17-62
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:105:13-107:79
 	android:value
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:107:17-76
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:107:17-76
+	android:name
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:106:17-62
 activity#com.ashesi.cs.mhealth.SearchResultsActivity
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:109:9-122:20
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:109:9-122:20
 	android:label
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:111:13-48
-	android:theme
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:114:13-49
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:111:13-48
 	android:parentActivityName
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:113:13-81
-	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:110:13-71
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:113:13-81
 	android:launchMode
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:112:13-43
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:112:13-43
+	android:theme
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:114:13-49
+	android:name
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:110:13-71
 meta-data#android.app.searchable
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:115:13-117:54
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:115:13-117:54
 	android:resource
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:117:17-51
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:117:17-51
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:116:17-54
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:116:17-54
 intent-filter#android.intent.action.SEARCH
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:119:13-121:29
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:119:13-121:29
 action#android.intent.action.SEARCH
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:120:17-71
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:120:17-71
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:120:25-68
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:120:25-68
 activity#com.ashesi.cs.mhealth.DetailReport
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:123:9-126:20
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:123:9-126:20
 	android:label
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:125:13-65
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:125:13-65
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:124:13-62
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:124:13-62
 activity#com.ashesi.cs.mhealth.HealthPromotionList
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:127:9-130:20
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:127:9-130:20
 	android:label
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:129:13-73
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:129:13-73
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:128:13-69
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:128:13-69
 activity#com.ashesi.cs.mhealth.TasksActivity
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:131:9-134:20
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:131:9-134:20
 	android:label
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:133:13-57
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:133:13-57
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:132:13-63
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:132:13-63
 activity#com.ashesi.cs.mhealth.NhisClaimFormActivity
-ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:135:9-136:20
+ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:135:9-136:20
 	android:name
-		ADDED from E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:135:19-77
+		ADDED from C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\AndroidManifest.xml:135:19-77

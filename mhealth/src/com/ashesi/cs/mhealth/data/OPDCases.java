@@ -21,6 +21,8 @@ public class OPDCases extends DataClass {
 	public static final String OPD_CASE_NAME="opd_case_name";
 	public static final String OPD_CASE_CATEGORY="opd_case_category";
 	public static final String OPD_CASE_DISPLAY_ORDER="opd_case_display_order";
+	public static final String OPD_CASE_GDRG_CODE="gdrg_code";
+	public static final String OPD_CASE_CHARGE="charge";
 	
 	private String[] columns={OPD_CASE_ID,OPD_CASE_NAME,OPD_CASE_CATEGORY,OPD_CASE_DISPLAY_ORDER};
 
@@ -208,6 +210,7 @@ public class OPDCases extends DataClass {
 		}
 		
 	}
+	//Added gdrg and charge to existing addOrUpdate
 	
 	public boolean addOrUpdate(int id,String opdCaseName,int opdCaseCategory){
 		return addOrUpdate(id,opdCaseName,opdCaseCategory,0);
@@ -232,7 +235,28 @@ public class OPDCases extends DataClass {
 			return false;
 		}
 	}
-			
+
+	public boolean addOrUpdate(int id,String opdCaseName,int opdCaseCategory, int displayOrder, String gdrg, float charge){
+		try{
+			SQLiteDatabase db=getWritableDatabase();
+			ContentValues cv=new ContentValues();
+
+			cv.put(OPD_CASE_NAME, opdCaseName);
+			cv.put(OPD_CASE_ID, id);
+			cv.put(OPD_CASE_CATEGORY, opdCaseCategory);
+			cv.put(OPD_CASE_DISPLAY_ORDER, displayOrder);
+			cv.put(OPD_CASE_GDRG_CODE, gdrg);
+			cv.put(OPD_CASE_CHARGE, charge);
+			if(db.insertWithOnConflict(TABLE_NAME_OPD_CASES, null,cv,SQLiteDatabase.CONFLICT_REPLACE)<=0){
+				return false;
+			}
+			close();
+			return true;
+		}catch(Exception ex){
+			close();
+			return false;
+		}
+	}
 	public boolean updateDataVersion(int dataVersion){
 		return true;
 	}
@@ -260,6 +284,20 @@ public class OPDCases extends DataClass {
 	
 	public static String getInsertSQLString(int id, String opdCaseName, int category,int displayOrder){
 		return "insert into " + TABLE_NAME_OPD_CASES + "(" 
+				+OPD_CASE_ID + " ,"
+				+OPD_CASE_NAME +", "
+				+OPD_CASE_CATEGORY +","
+				+OPD_CASE_DISPLAY_ORDER
+				+" ) values( "
+				+id +","
+				+"'"+opdCaseName+"', "
+				+category +", "
+				+displayOrder
+				+" )";
+	}
+
+	public static String getInsertSQLString(int id, String opdCaseName, int category,int displayOrder,String gdrg, float charge){
+		return "insert into " + TABLE_NAME_OPD_CASES + "("
 				+OPD_CASE_ID + " ,"
 				+OPD_CASE_NAME +", "
 				+OPD_CASE_CATEGORY +","

@@ -538,7 +538,19 @@ public class FamilyPlanningRecords extends DataClass {
 				+DataClass.REC_STATE+ " integer "
 				+")";
 	}
-	
+
+	public static String getCreateSQLString1(){
+		return "create table dummytable ( "
+				+SERVICE_REC_ID+"  integer primary key, "
+				+FamilyPlanningServices.SERVICE_ID +" integer, "
+				+CommunityMembers.COMMUNITY_MEMBER_ID +" integer, "
+				+SERVICE_DATE+" text,"
+				+SCHEDULE_DATE+" text, "
+				+QUANTITY+" numberic ,"
+				+SERVICE_TYPE+" integer default 0,"
+				+DataClass.REC_STATE+ " integer "
+				+")";
+	}
 	public static String getServiceRecordSQLString(){
 		return "select "
 				+SERVICE_REC_ID+", "

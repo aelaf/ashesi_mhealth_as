@@ -13,4 +13,4 @@
     <EditTextPreference android:key="app_path" android:title="@string/app_path" android:defaultValue="/yaresa/"/>
 
 </PreferenceScreen>
-<!-- From: file:/E:/Users/ice/Documents/George/Applied%20Project/Applied%20Project/ashesi_mhealth_as/mhealth/res/xml/pref_general.xml -->
+<!-- From: file:/C:/Users/george.assan/Documents/George/Applied%20Project/Applied%20Project/ashesi_mhealth_as/mhealth/res/xml/pref_general.xml -->

@@ -6,4 +6,4 @@
           android:state_selected="true" />
     <item android:drawable="@drawable/botton_shape_released" />
 </selector>
-<!-- From: file:/E:/Users/ice/Documents/George/Applied%20Project/Applied%20Project/ashesi_mhealth_as/mhealth/res/drawable-hdpi/botton_selector.xml -->
+<!-- From: file:/C:/Users/george.assan/Documents/George/Applied%20Project/Applied%20Project/ashesi_mhealth_as/mhealth/res/drawable-hdpi/botton_selector.xml -->

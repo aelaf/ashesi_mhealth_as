@@ -5,7 +5,9 @@ public class OPDCase {
 	private String opdCaseName;
 	private int category;
 	private int displayOrder;
-	
+	private String gdrg;
+	private float charge;
+
 	public OPDCase(){
 		
 	}
@@ -26,7 +28,14 @@ public class OPDCase {
 		this.category=category;
 		this.displayOrder=displayOrder;
 	}
-	
+	public OPDCase(int id, String opdCaseName, int category, int displayOrder,String gdrg, float charge){
+		this.id=id;
+		this.opdCaseName=opdCaseName;
+		this.category=category;
+		this.displayOrder=displayOrder;
+		this.gdrg = gdrg;
+		this.charge = charge;
+	}
 	public int getID(){
 		return id;
 	}

@@ -2,60 +2,60 @@
 <items version="2" >
 
     <item
-        jar="E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\libs\fluent-hc-4.3.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="d8ad35f275f9874f9b5e51097021df537badedb1">
-        <dex dex="E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\build\intermediates\pre-dexed\debug\fluent-hc-4.3.1-9f65961c8348e8155fcdeca18d3523a924b5583d.jar" />
-    </item>
-    <item
-        jar="E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\libs\httpcore-4.3.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="8dfd6286d04ad9dbf26cdf7d4ef5c8fad430cf30">
-        <dex dex="E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\build\intermediates\pre-dexed\debug\httpcore-4.3-ee5073f958bbaad5b573d91707d4c4a13d22c130.jar" />
-    </item>
-    <item
-        jar="E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\libs\httpmime-4.3.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="f49e2348b768a7199e021a97e951df25cd5fb714">
-        <dex dex="E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\build\intermediates\pre-dexed\debug\httpmime-4.3.1-b506a84ee2b94a00c5eced7cfd3ac180d616246f.jar" />
-    </item>
-    <item
-        jar="E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\libs\httpclient-cache-4.3.1.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="546eee25fa025a455040bbf1708b0c0490c2311b">
-        <dex dex="E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\build\intermediates\pre-dexed\debug\httpclient-cache-4.3.1-d881763d594d562de3485e867fb7b718e3743c21.jar" />
-    </item>
-    <item
-        jar="E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\libs\commons-logging-1.1.3.jar"
-        jumboMode="false"
-        revision="23.0.2"
-        sha1="f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f">
-        <dex dex="E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\build\intermediates\pre-dexed\debug\commons-logging-1.1.3-5604e3ef8b88360701b5473318b518989ee541e5.jar" />
-    </item>
-    <item
-        jar="E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\libs\android-support-v4.jar"
+        jar="C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\libs\android-support-v4.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="bd6479f5dd592790607e0504e66e0f31c2b4d308">
-        <dex dex="E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\build\intermediates\pre-dexed\debug\android-support-v4-fbf9d51ab5132b9d09d26357caeead196261e827.jar" />
+        <dex dex="C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\build\intermediates\pre-dexed\debug\android-support-v4-f272cd29334ce61d739fca2d2a9a87d064ce1ab8.jar" />
     </item>
     <item
-        jar="E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\libs\commons-codec-1.6.jar"
+        jar="C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\libs\fluent-hc-4.3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d8ad35f275f9874f9b5e51097021df537badedb1">
+        <dex dex="C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\build\intermediates\pre-dexed\debug\fluent-hc-4.3.1-4047cbd00c5f7386505fde6f9f33ffb3e267afd7.jar" />
+    </item>
+    <item
+        jar="C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\libs\httpcore-4.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8dfd6286d04ad9dbf26cdf7d4ef5c8fad430cf30">
+        <dex dex="C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\build\intermediates\pre-dexed\debug\httpcore-4.3-400bc121ce289b0d4ad9dcff803c0fe4b2fc6880.jar" />
+    </item>
+    <item
+        jar="C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\libs\commons-codec-1.6.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="b7f0fc8f61ecadeb3695f0b9464755eee44374d4">
-        <dex dex="E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\build\intermediates\pre-dexed\debug\commons-codec-1.6-fb2df17e18bcff8e87e0ceef7ff78f813ffd1ff9.jar" />
+        <dex dex="C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\build\intermediates\pre-dexed\debug\commons-codec-1.6-2ab80ec93ab728e8f7baede6449276a031f9b95c.jar" />
     </item>
     <item
-        jar="E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\libs\httpclient-4.3.1.jar"
+        jar="C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\libs\httpclient-cache-4.3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="546eee25fa025a455040bbf1708b0c0490c2311b">
+        <dex dex="C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\build\intermediates\pre-dexed\debug\httpclient-cache-4.3.1-7672fee51b694d24d5d48ff9353f0000bb7a46fc.jar" />
+    </item>
+    <item
+        jar="C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\libs\commons-logging-1.1.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f">
+        <dex dex="C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\build\intermediates\pre-dexed\debug\commons-logging-1.1.3-46286932c09ab5fc2194ff5c382a75fef2d4753c.jar" />
+    </item>
+    <item
+        jar="C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\libs\httpmime-4.3.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f49e2348b768a7199e021a97e951df25cd5fb714">
+        <dex dex="C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\build\intermediates\pre-dexed\debug\httpmime-4.3.1-48df8458ee9e99d9bdfc56657b874e827b79cea6.jar" />
+    </item>
+    <item
+        jar="C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\libs\httpclient-4.3.1.jar"
         jumboMode="false"
         revision="23.0.2"
         sha1="0171c67fa04952e76bc9ee1e578fe629db35d769">
-        <dex dex="E:\Users\ice\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\build\intermediates\pre-dexed\debug\httpclient-4.3.1-c4ce5fe2d722f0c7a9fd05f321f5219cff456b5c.jar" />
+        <dex dex="C:\Users\george.assan\Documents\George\Applied Project\Applied Project\ashesi_mhealth_as\mhealth\build\intermediates\pre-dexed\debug\httpclient-4.3.1-3011a937a573193d80bc2adb669a8ba964f759ee.jar" />
     </item>
 
 </items>

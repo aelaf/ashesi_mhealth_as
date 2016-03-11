@@ -618,8 +618,8 @@ public class OPDCaseRecords extends DataClass {
 				+REC_DATE+ " text, "
 				+SERVER_REC_NO+ " integer, "
 				+REC_STATE+" integer, "
-				+LAB+ " text "
-				+" )";
+				+LAB+ " text, "
+				+ ClaimRecords.CLAIM_ID + " real" +" )";
 	}
 	
 	public static String getCreateViewString(){
