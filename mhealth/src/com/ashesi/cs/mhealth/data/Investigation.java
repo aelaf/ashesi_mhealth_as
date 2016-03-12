@@ -9,6 +9,9 @@ public class Investigation {
     private String gdrg;
     private float charge;
 
+    public Investigation() {
+    }
+
     public Investigation(int id,String investigation) {
         this.investigation = investigation;
         this.id = id;

@@ -358,13 +358,13 @@
         android:layout_height="wrap_content"
         android:padding="5dip" >
 
-
-        <!--ListView
+        <ListView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/listView3"
+            android:id="@+id/proceduresListView"
             android:layout_column="1"
-            android:layout_span="4"/-->
+            android:layout_span="4" />
+
     </TableRow>
     <!-- display this button in 2nd column via layout_column(zero based) -->
     <TableRow
@@ -396,12 +396,12 @@
         android:padding="5dip" >
 
 
-        <!--ListView
+        <ListView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/listView4"
+            android:id="@+id/investigationListView"
             android:layout_column="1"
-            android:layout_span="4"/-->
+            android:layout_span="4"/>
     </TableRow>
     <TableRow
         android:id="@+id/tableRow8"
@@ -440,12 +440,12 @@
         android:padding="5dip" >
 
 
-        <!--ListView
+        <ListView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/listView5"
+            android:id="@+id/medicineListView"
             android:layout_column="1"
-            android:layout_span="4"/-->
+            android:layout_span="4"/>
     </TableRow>
     <View
         android:layout_height="2dip"

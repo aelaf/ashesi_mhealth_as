@@ -31,4 +31,9 @@ public class MedicineRecords extends DataClass {
                 +MEDICINE_CHARGE +" real default 0"
                 +" )";
     }
+
+    @Override
+    public String toString() {
+        return "";
+    }
 }

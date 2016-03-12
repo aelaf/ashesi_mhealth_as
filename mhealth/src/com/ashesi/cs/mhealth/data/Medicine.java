@@ -10,6 +10,9 @@ public class Medicine {
     private String gdrg;
     private float charge;
 
+    public Medicine() {
+    }
+
     public Medicine(int id, String medicine) {
         this.id = id;
         this.medicine = medicine;
@@ -39,6 +42,8 @@ public class Medicine {
     public float getCharge() {
         return charge;
     }
+
+
 
     @Override
     public String toString() {

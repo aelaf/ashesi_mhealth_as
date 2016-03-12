@@ -3,21 +3,28 @@ package com.ashesi.cs.mhealth;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
+import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.Spinner;
+import android.widget.TableRow;
 import android.widget.TextView;
 
 import com.ashesi.cs.mhealth.data.Investigation;
+import com.ashesi.cs.mhealth.data.InvestigationRecord;
 import com.ashesi.cs.mhealth.data.Investigations;
 import com.ashesi.cs.mhealth.data.Medicine;
+import com.ashesi.cs.mhealth.data.MedicineRecord;
 import com.ashesi.cs.mhealth.data.Medicines;
 import com.ashesi.cs.mhealth.data.OPDCases;
 import com.ashesi.cs.mhealth.data.Outcome;
 import com.ashesi.cs.mhealth.data.Outcomes;
 import com.ashesi.cs.mhealth.data.Procedure;
+import com.ashesi.cs.mhealth.data.ProcedureRecord;
 import com.ashesi.cs.mhealth.data.Procedures;
 import com.ashesi.cs.mhealth.data.R;
 import com.ashesi.cs.mhealth.data.TypeOfAttendance;
@@ -38,12 +45,19 @@ public class NhisClaimFormActivity extends Activity implements AdapterView.OnIte
     ArrayList<Procedure> listOfProcedures;
     ArrayList<TypeOfAttendance> listOfTypeOfAttendance;
     ArrayList<TypeOfService> listOfTypeOfService;
+    ArrayList<ProcedureRecord> procedureStringList;
+    ArrayList<InvestigationRecord> investigationStringList;
+    ArrayList<MedicineRecord>  medicineStringList;
+    ArrayAdapter<ProcedureRecord> procedureAdapter;
+    ArrayAdapter<InvestigationRecord> investigationAdapter;
+    ArrayAdapter<MedicineRecord> medicineAdapter;
     ArrayList<Outcome> listOfOutcomes;
     private DatePicker visitingDate;
     private TextView visitOne;
     private TextView visitTwo;
     private TextView visitThree;
     private TextView visitFour;
+    private EditText editQuantity;
     private Button visitOneSetBtn;
     private Button visitOneUnSetBtn;
     private Button visitTwoSetBtn;
@@ -52,6 +66,19 @@ public class NhisClaimFormActivity extends Activity implements AdapterView.OnIte
     private Button visitThreeUnSetBtn;
     private Button visitFourSetBtn;
     private Button visitFourUnSetBtn;
+    private Button procedureAddBtn;
+    private Button investigationAddBtn;
+    private Button medicineAddBtn;
+    private ListView procedureListView;
+    private ListView investigationListView;
+    private ListView medicineListView;
+    private Spinner spinnerAttendance;
+    private Spinner spinnerProcedure;
+    private Spinner spinnerInvestigation;
+    private Spinner spinnerMedicines;
+    private Spinner spinnerTypeOfServices;
+    private Spinner spinnerOutcomes;
+
 
     SimpleDateFormat dateFormat=new SimpleDateFormat("yyyy-MM-dd", Locale.UK);
     @Override
@@ -66,6 +93,9 @@ public class NhisClaimFormActivity extends Activity implements AdapterView.OnIte
         listOfTypeOfAttendance = new ArrayList<>();
         listOfOPDCases = new ArrayList<>();
         listOfOutcomes = new ArrayList<>();
+        procedureStringList = new ArrayList<>();
+        investigationStringList = new ArrayList<>();
+        medicineStringList = new ArrayList<>();
 
         visitingDate = (DatePicker) findViewById(R.id.dpBirthDate);
         visitOneSetBtn = (Button) findViewById(R.id.setButtonForVisitOne);
@@ -93,6 +123,37 @@ public class NhisClaimFormActivity extends Activity implements AdapterView.OnIte
         visitThree = (TextView) findViewById(R.id.visitThreeTextView);
         visitFour = (TextView) findViewById(R.id.visitFourTextView);
 
+        editQuantity = (EditText)findViewById(R.id.quantityMedicine);
+
+        spinnerTypeOfServices = (Spinner) findViewById(R.id.spinnerTypeOfServices);
+        spinnerOutcomes = (Spinner) findViewById(R.id.spinnerOutcomes);
+        spinnerAttendance = (Spinner) findViewById(R.id.spinnerAttendance);
+        spinnerProcedure = (Spinner) findViewById(R.id.spinnerProcedure);
+        spinnerInvestigation = (Spinner) findViewById(R.id.spinnerInvestigation);
+        spinnerMedicines = (Spinner) findViewById(R.id.spinnerMedicines);
+
+        procedureAddBtn =(Button)findViewById(R.id.addProcedureBtn);
+        procedureAddBtn.setOnClickListener(this);
+
+        investigationAddBtn =(Button)findViewById(R.id.addInvestigationBtn);
+        investigationAddBtn.setOnClickListener(this);
+
+        medicineAddBtn =(Button)findViewById(R.id.addMedicineBtn);
+        medicineAddBtn.setOnClickListener(this);
+
+        procedureListView = (ListView) findViewById(R.id.proceduresListView);
+        procedureAdapter = new ArrayAdapter<ProcedureRecord>(this,android.R.layout.simple_list_item_1, procedureStringList);
+        procedureListView.setAdapter(procedureAdapter);
+
+        investigationListView = (ListView) findViewById(R.id.investigationListView);
+        investigationAdapter = new ArrayAdapter<InvestigationRecord>(this,android.R.layout.simple_list_item_1, investigationStringList);
+        investigationListView.setAdapter(investigationAdapter);
+
+        medicineListView = (ListView) findViewById(R.id.medicineListView);
+        medicineAdapter = new ArrayAdapter<MedicineRecord>(this,android.R.layout.simple_list_item_1, medicineStringList);
+        medicineListView.setAdapter(medicineAdapter);
+
+        //spinnerTypeOfServices.setAdapter(adapter);
         fillTypeOfServiceSpinner();
         fillInvestigationSpinner();
         fillMedicinesSpinner();
@@ -103,69 +164,63 @@ public class NhisClaimFormActivity extends Activity implements AdapterView.OnIte
     }
 
     public boolean fillTypeOfServiceSpinner() {
-        Spinner spinner = (Spinner) findViewById(R.id.spinnerTypeOfServices);
         TypeOfServices services = new TypeOfServices(this.getApplicationContext());
         listOfTypeOfService = services.getTypeOfServices();
         listOfTypeOfService.add(0, new TypeOfService(0, "Select services"));
         ArrayAdapter<TypeOfService> adapter = new ArrayAdapter<TypeOfService>(this, android.R.layout.simple_list_item_1, listOfTypeOfService);
-        spinner.setAdapter(adapter);
-        spinner.setOnItemSelectedListener(this);
+        spinnerTypeOfServices.setAdapter(adapter);
+        spinnerTypeOfServices.setOnItemSelectedListener(this);
         return true;
     }
 
     public boolean fillOutcomesSpinner() {
-        Spinner spinner = (Spinner) findViewById(R.id.spinnerOutcomes);
         Outcomes outcomes = new Outcomes(this.getApplicationContext());
         listOfOutcomes = outcomes.getOutcomes();
         listOfOutcomes.add(0, new Outcome(0, "Select outcome"));
         ArrayAdapter<Outcome> adapter = new ArrayAdapter<Outcome>(this, android.R.layout.simple_list_item_1, listOfOutcomes);
-        spinner.setAdapter(adapter);
-        spinner.setOnItemSelectedListener(this);
+        spinnerOutcomes.setAdapter(adapter);
+        spinnerOutcomes.setOnItemSelectedListener(this);
         return true;
     }
 
     public boolean fillTypeOfAttendanceSpinner() {
-        Spinner spinner = (Spinner) findViewById(R.id.spinnerAttendance);
         TypeOfAttendances attendances = new TypeOfAttendances(this.getApplicationContext());
         listOfTypeOfAttendance = attendances.getTypeOfAttendances();
         listOfTypeOfAttendance.add(0, new TypeOfAttendance(0, "Select attendance"));
         ArrayAdapter<TypeOfAttendance> adapter = new ArrayAdapter<TypeOfAttendance>(this, android.R.layout.simple_list_item_1, listOfTypeOfAttendance);
-        spinner.setAdapter(adapter);
-        spinner.setOnItemSelectedListener(this);
+        spinnerAttendance.setAdapter(adapter);
+        spinnerAttendance.setOnItemSelectedListener(this);
         return true;
     }
 
     public boolean fillProceduresSpinner() {
-        Spinner spinner = (Spinner) findViewById(R.id.spinnerProcedure);
         Procedures procedures = new Procedures(this.getApplicationContext());
         listOfProcedures = procedures.getProcedures();
         listOfProcedures.add(0, new Procedure(0, "Select procedures"));
         ArrayAdapter<Procedure> adapter = new ArrayAdapter<Procedure>(this, android.R.layout.simple_list_item_1, listOfProcedures);
-        spinner.setAdapter(adapter);
-        spinner.setOnItemSelectedListener(this);
+        spinnerProcedure.setAdapter(adapter);
+        spinnerProcedure.setOnItemSelectedListener(this);
         return true;
 
     }
 
     public boolean fillInvestigationSpinner() {
-        Spinner spinner = (Spinner) findViewById(R.id.spinnerInvestigation);
         Investigations investigations = new Investigations(this.getApplicationContext());
         listOfInvestigations = investigations.getInvestigations();
         listOfInvestigations.add(0, new Investigation(0, "Select investigations"));
         ArrayAdapter<Investigation> adapter = new ArrayAdapter<Investigation>(this, android.R.layout.simple_list_item_1, listOfInvestigations);
-        spinner.setAdapter(adapter);
-        spinner.setOnItemSelectedListener(this);
+        spinnerInvestigation.setAdapter(adapter);
+        spinnerInvestigation.setOnItemSelectedListener(this);
         return true;
     }
 
     public boolean fillMedicinesSpinner() {
-        Spinner spinner = (Spinner) findViewById(R.id.spinnerMedicines);
         Medicines medicines = new Medicines(this.getApplicationContext());
         listOfMedicines = medicines.getMedicines();
         listOfMedicines.add(0, new Medicine(0, "Select medicines"));
         ArrayAdapter<Medicine> adapter = new ArrayAdapter<Medicine>(this, android.R.layout.simple_list_item_1, listOfMedicines);
-        spinner.setAdapter(adapter);
-        spinner.setOnItemSelectedListener(this);
+        spinnerMedicines.setAdapter(adapter);
+        spinnerMedicines.setOnItemSelectedListener(this);
         return true;
     }
 
@@ -209,7 +264,16 @@ public class NhisClaimFormActivity extends Activity implements AdapterView.OnIte
         if(view == visitFourUnSetBtn){
             visitFour.setText("--/--/--");
         }
+        if(view == procedureAddBtn){
+            addProcedureRecord();
 
+        }
+        if(view == investigationAddBtn){
+            addInvestigationRecord();
+        }
+        if(view == medicineAddBtn){
+            addMedicineRecord();
+        }
 
     }
 
@@ -223,6 +287,90 @@ public class NhisClaimFormActivity extends Activity implements AdapterView.OnIte
         } catch (Exception ex) {
             return null;
         }
+    }
+
+    private String getLastVisitDate(){
+        String lastVisitDate = visitOne.getText()+"";
+        String visitTwoString = visitTwo.getText()+"";
+        String visitThreeString =visitThree.getText()+"";
+        String visitFourString =visitFour.getText()+"";
+        if(!visitTwoString.equals("- -/- -/- -")){
+            lastVisitDate = visitTwo.getText()+"";
+
+        }
+        if(!visitThreeString.equals("- -/- -/- -")){
+            lastVisitDate = visitThree.getText()+"";
+
+        }
+        if(!visitFourString.equals("- -/- -/- -")){
+            lastVisitDate = visitFour.getText()+"";
+
+        }
+        return lastVisitDate;
+
+    }
+
+
+    public static int getItemHeightOfListView(ListView listview){
+      int height = 0;
+        for(int i = 0;i < listview.getCount(); i++){
+            View childview = listview.getAdapter().getView(i,null,listview);
+            childview.measure(View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED),
+                    View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED));
+                height+=childview.getMeasuredHeight();
+        }
+        //dividers height;
+        height += listview.getDividerHeight()* listview.getCount();
+
+        return height;
+
+    }
+
+    private void addProcedureRecord(){
+        //procedureListView.
+        Procedure p = new Procedure();
+        p = (Procedure)spinnerProcedure.getSelectedItem();
+        ProcedureRecord prec = new ProcedureRecord(p.getId(),p.getProcedure(),getLastVisitDate(),p.getCharge());
+        procedureStringList.add(prec);
+        procedureAdapter.notifyDataSetChanged();
+        ViewGroup.LayoutParams params = procedureListView.getLayoutParams();
+        params.height = getItemHeightOfListView(procedureListView);
+        procedureListView.setLayoutParams(params);
+        procedureListView.requestLayout();
+
+        // visitFour.setText(procedureStringList.size()+""+prec);
+
+    }
+
+
+    private void addInvestigationRecord(){
+        //procedureListView.
+        Investigation i = new Investigation();
+        i = (Investigation)spinnerInvestigation.getSelectedItem();
+        InvestigationRecord irec = new InvestigationRecord(i.getId(),i.getInvestigationName(),getLastVisitDate(),i.getCharge());
+        investigationStringList.add(irec);
+        investigationAdapter.notifyDataSetChanged();
+        ViewGroup.LayoutParams params = investigationListView.getLayoutParams();
+        params.height = getItemHeightOfListView(investigationListView);
+        investigationListView.setLayoutParams(params);
+        investigationListView.requestLayout();
+
+    }
+
+    private void addMedicineRecord(){
+        //procedureListView.
+        Medicine m = new Medicine();
+        m = (Medicine)spinnerMedicines.getSelectedItem();
+        int quantity = Integer.parseInt(editQuantity.getText() + "");
+        float medicineCharge = m.getCharge()*quantity ;
+       MedicineRecord irec = new MedicineRecord(m.getId(),m.getMedicine(),getLastVisitDate(),quantity,medicineCharge);
+       medicineStringList.add(irec);
+        medicineAdapter.notifyDataSetChanged();
+        ViewGroup.LayoutParams params = medicineListView.getLayoutParams();
+        params.height = getItemHeightOfListView(medicineListView);
+        medicineListView.setLayoutParams(params);
+        medicineListView.requestLayout();
+
     }
 }
 

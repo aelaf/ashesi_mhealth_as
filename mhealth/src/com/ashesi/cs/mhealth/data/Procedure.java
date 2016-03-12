@@ -9,6 +9,10 @@ public class Procedure {
     private String gdrg;
     private float charge;
 
+    public Procedure(){
+
+    }
+
     public Procedure(int id, String procedure) {
         this.id = id;
         this.procedure = procedure;
