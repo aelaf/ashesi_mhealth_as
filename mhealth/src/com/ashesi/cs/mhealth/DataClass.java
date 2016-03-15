@@ -96,7 +96,7 @@ public class DataClass extends SQLiteOpenHelper {
 	 * modifies VIEW_COMMUNITY_MEMBERS_OPD_CASES
 	 * adds VIEW_COMMUNITY_MEMBERS_IN_OPD_CASES
 	 */
-	protected static final int DATABASE_VERSION=15;
+	protected static final int DATABASE_VERSION=16;
 	protected SQLiteDatabase db;
 	protected Cursor cursor;
 	protected int mDeviceId;
@@ -655,7 +655,13 @@ public class DataClass extends SQLiteOpenHelper {
 			db.execSQL(Procedures.getInsertSQLString(1, "MCHC", "zsTwe12", 2));
 			db.execSQL(Investigations.getInsertSQLString(1, "MCHC", "sTfstss", 2));
 
-			setDataVersion(db, DATABASE_NAME, 15);
+			//version 16
+			db.delete(OPDCases.TABLE_NAME_OPD_CASES, null, null);
+			db.execSQL(OPDCases.getInsertSQLString(1, "AFP(Polio)", 1, "git456", 6));
+			db.execSQL(OPDCases.getInsertSQLString(10, "U Malaria Lab",1,"atern234",7));
+			db.execSQL(InvestigationRecords.getCreateSQLString());
+
+			setDataVersion(db, DATABASE_NAME, 16);
 		}catch(Exception ex){
 			Log.e("DataClass.onCreate", "Exception "+ex.getMessage());
 		}
@@ -718,6 +724,9 @@ public class DataClass extends SQLiteOpenHelper {
 			}
 			if(oldVersion<=14){
 				upgradeToVersion15(db);
+			}
+			if(oldVersion<=15){
+				upgradeToVersion16(db);
 			}
 			//}
 		}catch(Exception ex){
@@ -925,6 +934,7 @@ public class DataClass extends SQLiteOpenHelper {
 		db.execSQL(Investigations.getCreateSQLString());
 		db.execSQL(MedicineRecords.getCreateSQLString());
 		db.execSQL(ProcedureRecords.getCreateSQLString());
+		db.execSQL(InvestigationRecords.getCreateSQLString());
 		db.execSQL(TypeOfServices.getCreateSQLString());
 		db.execSQL(TypeOfAttendances.getCreateSQLString());
 		db.execSQL(Outcomes.getCreateSQLString());
@@ -936,6 +946,7 @@ public class DataClass extends SQLiteOpenHelper {
 		db.execSQL("alter table " + OPDCases.TABLE_NAME_OPD_CASES +
 				" add column " + OPDCases.OPD_CASE_CHARGE + " real default 0");
 
+		/**these are for testing **/
 		db.execSQL(TypeOfServices.getInsertSQLString(1, "OPD"));
 		db.execSQL(TypeOfAttendances.getInsertSQLString(1, "Chronic Follow-Up"));
 		db.execSQL(Outcomes.getInsertSQLString(1, "Discharge"));
@@ -945,8 +956,13 @@ public class DataClass extends SQLiteOpenHelper {
 
 
 	}
-	 private void upgradeToVersion16(SQLiteDatabase db){
-		
+	private void upgradeToVersion16(SQLiteDatabase db){
+
+		 db.delete(OPDCases.TABLE_NAME_OPD_CASES, null, null);
+		 db.execSQL(OPDCases.getInsertSQLString(1, "AFP(Polio)", 1, "git456", 6));
+		 db.execSQL(OPDCases.getInsertSQLString(10, "U Malaria Lab",1,"atern234",7));
+		 db.execSQL("alter table "+ MedicineRecords.TABLE_NAME_MEDICINES_RECORDS +
+		 			"add column " + MedicineRecords.MEDICINE_QUANTITY +" integer default 1");
 
 	 }
 

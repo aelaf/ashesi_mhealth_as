@@ -24,7 +24,7 @@ public class OPDCases extends DataClass {
 	public static final String OPD_CASE_GDRG_CODE="gdrg_code";
 	public static final String OPD_CASE_CHARGE="charge";
 	
-	private String[] columns={OPD_CASE_ID,OPD_CASE_NAME,OPD_CASE_CATEGORY,OPD_CASE_DISPLAY_ORDER};
+	private String[] columns={OPD_CASE_ID,OPD_CASE_NAME,OPD_CASE_CATEGORY,OPD_CASE_DISPLAY_ORDER,OPD_CASE_GDRG_CODE,OPD_CASE_CHARGE};
 
 	public OPDCases(Context context){
 		super(context);
@@ -75,11 +75,11 @@ public class OPDCases extends DataClass {
 			return list;
 		}
 	}
-	
+
 	public OPDCase fetch(){
 		try
 		{
-				
+
 			if(cursor.isBeforeFirst()){
 				cursor.moveToFirst();
 			}
@@ -94,8 +94,12 @@ public class OPDCases extends DataClass {
 			if(index>0){
 				displayOrder=cursor.getInt(index);
 			}
+			index=cursor.getColumnIndex(OPD_CASE_GDRG_CODE);
+			String gdrg = cursor.getString(index);
+			index=cursor.getColumnIndex(OPD_CASE_CHARGE);
+			float charge = cursor.getFloat(index);
 			cursor.moveToNext();
-			return new OPDCase(id,name,category,displayOrder);
+			return new OPDCase(id,name,category,displayOrder,gdrg,charge);
 		}catch(Exception ex){
 			return null;
 		}
@@ -110,6 +114,27 @@ public class OPDCases extends DataClass {
 			opdCase=fetch();
 		}
 		return list;
+	}
+
+	//Added this method to retrieve opd cases
+	public ArrayList<OPDCase> getOPDcases(){
+		ArrayList<OPDCase> list=new ArrayList<OPDCase>();
+		try
+		{
+			db=getReadableDatabase();
+			cursor=db.query(TABLE_NAME_OPD_CASES, columns, null, null, null, null,null);
+			cursor.moveToFirst();
+			OPDCase obj=fetch();
+			while(obj!=null){
+				list.add(obj);
+				obj=fetch();
+			}
+			close();
+			return list;
+		}catch(Exception ex){
+			close();
+			return list;
+		}
 	}
 	
 	public OPDCase fetch(Cursor cursor){
@@ -266,7 +291,9 @@ public class OPDCases extends DataClass {
 				+OPD_CASE_ID + " integer primary key, "
 				+OPD_CASE_NAME +" text, "
 				+OPD_CASE_CATEGORY +" integer, "
-				+OPD_CASE_DISPLAY_ORDER+" integer default 0"
+				+OPD_CASE_DISPLAY_ORDER+" integer default 0, "
+				+OPD_CASE_GDRG_CODE+" text, "
+				+OPD_CASE_CHARGE+" real default 0"
 				+" )";
 	}
 		
@@ -296,17 +323,36 @@ public class OPDCases extends DataClass {
 				+" )";
 	}
 
+	public static String getInsertSQLString(int id, String opdCaseName, int category,String gdrg, float charge){
+		return "insert into " + TABLE_NAME_OPD_CASES + "("
+				+OPD_CASE_ID + " ,"
+				+OPD_CASE_NAME +", "
+				+OPD_CASE_CATEGORY +","
+				+OPD_CASE_GDRG_CODE +","
+				+OPD_CASE_CHARGE
+				+" ) values( "
+				+id +","
+				+"'"+opdCaseName+"', "
+				+category +", "
+				+"'"+gdrg+ "', "
+				+ charge
+				+" )";
+	}
+
 	public static String getInsertSQLString(int id, String opdCaseName, int category,int displayOrder,String gdrg, float charge){
 		return "insert into " + TABLE_NAME_OPD_CASES + "("
 				+OPD_CASE_ID + " ,"
 				+OPD_CASE_NAME +", "
 				+OPD_CASE_CATEGORY +","
-				+OPD_CASE_DISPLAY_ORDER
+				+OPD_CASE_DISPLAY_ORDER + ", "
+				+OPD_CASE_GDRG_CODE +","
+				+OPD_CASE_CHARGE
 				+" ) values( "
 				+id +","
 				+"'"+opdCaseName+"', "
 				+category +", "
-				+displayOrder
+				+displayOrder+","
+
 				+" )";
 	}
 

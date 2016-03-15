@@ -15,9 +15,20 @@ public class OPDCaseRecord {
 	private String opdCaseName;
 	private int choId;
 	private String lab;
+	private float charge;
 	//private int serverRecNo;
 	//private int newRec;
-	
+
+	public OPDCaseRecord(int communityMemberId,int opdCaseId,String opdCaseName,String recDate,int choId,float charge){
+		this.fullname = "";
+		this.communityMemberId=communityMemberId;
+		this.opdCaseId=opdCaseId;
+		this.recDate=recDate;
+		this.opdCaseName=opdCaseName;
+		this.choId=choId;
+		this.charge = charge;
+
+	}
 	
 	public OPDCaseRecord(int recNo,int communityMemberId,int opdCaseId,String recDate,String fullname,String opdCaseName,int choId){
 		this.recNo=recNo;
@@ -85,13 +96,15 @@ public class OPDCaseRecord {
 	public int getCHOId(){
 		return choId;
 	}
-	
+
+	@Override
 	public String toString(){
-		String str="not lab confirmed";
-		if(isLab()){
-			str="lab confirmed";
-		}
-		return fullname +", "+ opdCaseName  +", " +str+", "+getFormatedRecDate();
+		//String str="not lab confirmed";
+		//if(isLab()){
+		//	str="lab confirmed";
+	//	}
+		return opdCaseName+ ", "+ recDate;
+		 //fullname +", "+ opdCaseName  +", " +str+", "+getFormatedRecDate();
 		
 	}
 	

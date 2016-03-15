@@ -325,7 +325,7 @@ public class CommunityMemberRecordActivity extends FragmentActivity implements A
 			this.rootView=rootView;
 			create();
 			return rootView;
-		}
+		} 
 		
 		@Override
 		public void onResume(){
@@ -1055,8 +1055,10 @@ public class CommunityMemberRecordActivity extends FragmentActivity implements A
 				//DatePickerFragment datePicker=new DatePickerFragment();
 				//datePicker.showDatePicker(this.getActivity().getSupportFragmentManager(), this);
 				//recordOPDCase();
-				Intent knowledge = new Intent(this.getActivity(),NhisClaimFormActivity.class);
-				startActivity(knowledge);
+				Intent intent = new Intent(this.getActivity(),NhisClaimFormActivity.class);
+				intent.putExtra("communityMemberId",communityMemberId);
+				intent.putExtra("choId", getArguments().getInt("choId"));
+				startActivity(intent);
 			}
 		}
 		

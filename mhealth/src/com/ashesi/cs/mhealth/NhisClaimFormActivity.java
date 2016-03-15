@@ -1,6 +1,11 @@
 package com.ashesi.cs.mhealth;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.DatePickerDialog;
+import android.app.Dialog;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,17 +19,25 @@ import android.widget.Spinner;
 import android.widget.TableRow;
 import android.widget.TextView;
 
+import com.ashesi.cs.mhealth.data.Bundles;
+import com.ashesi.cs.mhealth.data.ClaimRecords;
+import com.ashesi.cs.mhealth.data.CommunityMembers;
 import com.ashesi.cs.mhealth.data.Investigation;
 import com.ashesi.cs.mhealth.data.InvestigationRecord;
+import com.ashesi.cs.mhealth.data.InvestigationRecords;
 import com.ashesi.cs.mhealth.data.Investigations;
 import com.ashesi.cs.mhealth.data.Medicine;
 import com.ashesi.cs.mhealth.data.MedicineRecord;
+import com.ashesi.cs.mhealth.data.MedicineRecords;
 import com.ashesi.cs.mhealth.data.Medicines;
+import com.ashesi.cs.mhealth.data.OPDCase;
+import com.ashesi.cs.mhealth.data.OPDCaseRecord;
 import com.ashesi.cs.mhealth.data.OPDCases;
 import com.ashesi.cs.mhealth.data.Outcome;
 import com.ashesi.cs.mhealth.data.Outcomes;
 import com.ashesi.cs.mhealth.data.Procedure;
 import com.ashesi.cs.mhealth.data.ProcedureRecord;
+import com.ashesi.cs.mhealth.data.ProcedureRecords;
 import com.ashesi.cs.mhealth.data.Procedures;
 import com.ashesi.cs.mhealth.data.R;
 import com.ashesi.cs.mhealth.data.TypeOfAttendance;
@@ -41,16 +54,19 @@ public class NhisClaimFormActivity extends Activity implements AdapterView.OnIte
 
     ArrayList<Medicine> listOfMedicines;
     ArrayList<Investigation> listOfInvestigations;
-    ArrayList<OPDCases> listOfOPDCases;
+    ArrayList<OPDCase> listOfOPDCases;
     ArrayList<Procedure> listOfProcedures;
     ArrayList<TypeOfAttendance> listOfTypeOfAttendance;
     ArrayList<TypeOfService> listOfTypeOfService;
     ArrayList<ProcedureRecord> procedureStringList;
     ArrayList<InvestigationRecord> investigationStringList;
     ArrayList<MedicineRecord>  medicineStringList;
+    ArrayList<OPDCaseRecord> diagnosisStringList;
     ArrayAdapter<ProcedureRecord> procedureAdapter;
     ArrayAdapter<InvestigationRecord> investigationAdapter;
     ArrayAdapter<MedicineRecord> medicineAdapter;
+    ArrayAdapter<OPDCaseRecord> diagnosisAdapter;
+
     ArrayList<Outcome> listOfOutcomes;
     private DatePicker visitingDate;
     private TextView visitOne;
@@ -69,16 +85,34 @@ public class NhisClaimFormActivity extends Activity implements AdapterView.OnIte
     private Button procedureAddBtn;
     private Button investigationAddBtn;
     private Button medicineAddBtn;
+    private Button diagnosisAddBtn;
+    private Button claimAddBtn;
+
     private ListView procedureListView;
     private ListView investigationListView;
     private ListView medicineListView;
+    private ListView diagnosisListView;
+
     private Spinner spinnerAttendance;
     private Spinner spinnerProcedure;
     private Spinner spinnerInvestigation;
     private Spinner spinnerMedicines;
     private Spinner spinnerTypeOfServices;
     private Spinner spinnerOutcomes;
+    private Spinner spinnerOPDcases;
+    private String newBundleDate;
+    private int justAddedBundleId;
+    private int justAddedClaimId;
 
+    private float totalProcedureCharge;
+    private float totalDiagnosisCharge;
+    private float totalInvestigationCharge;
+    private float totalMedicinesCharge;
+
+    int communityMemberId=0;
+    int communityId;
+    int state=0;
+    int choId=0;
 
     SimpleDateFormat dateFormat=new SimpleDateFormat("yyyy-MM-dd", Locale.UK);
     @Override
@@ -86,6 +120,17 @@ public class NhisClaimFormActivity extends Activity implements AdapterView.OnIte
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nhis_claim_form_activity);
+        Intent intent=getIntent();
+        choId = intent.getIntExtra("choId",0);
+        communityMemberId = intent.getIntExtra("communityMemberId",0);
+
+        justAddedBundleId = 0;
+        justAddedClaimId = 0;
+         totalProcedureCharge = 0;
+         totalDiagnosisCharge = 0;
+         totalInvestigationCharge = 0;
+         totalMedicinesCharge = 0;
+
         listOfTypeOfService = new ArrayList<>();
         listOfInvestigations = new ArrayList<>();
         listOfMedicines = new ArrayList<>();
@@ -96,6 +141,7 @@ public class NhisClaimFormActivity extends Activity implements AdapterView.OnIte
         procedureStringList = new ArrayList<>();
         investigationStringList = new ArrayList<>();
         medicineStringList = new ArrayList<>();
+        diagnosisStringList = new ArrayList<>();
 
         visitingDate = (DatePicker) findViewById(R.id.dpBirthDate);
         visitOneSetBtn = (Button) findViewById(R.id.setButtonForVisitOne);
@@ -131,6 +177,7 @@ public class NhisClaimFormActivity extends Activity implements AdapterView.OnIte
         spinnerProcedure = (Spinner) findViewById(R.id.spinnerProcedure);
         spinnerInvestigation = (Spinner) findViewById(R.id.spinnerInvestigation);
         spinnerMedicines = (Spinner) findViewById(R.id.spinnerMedicines);
+        spinnerOPDcases = (Spinner) findViewById(R.id.spinnerDiagnosis);
 
         procedureAddBtn =(Button)findViewById(R.id.addProcedureBtn);
         procedureAddBtn.setOnClickListener(this);
@@ -140,6 +187,12 @@ public class NhisClaimFormActivity extends Activity implements AdapterView.OnIte
 
         medicineAddBtn =(Button)findViewById(R.id.addMedicineBtn);
         medicineAddBtn.setOnClickListener(this);
+
+        claimAddBtn = (Button)findViewById(R.id.add_claim);
+        claimAddBtn.setOnClickListener(this);
+
+        diagnosisAddBtn = (Button)findViewById(R.id.addDiagnosisBtn);
+        diagnosisAddBtn.setOnClickListener(this);
 
         procedureListView = (ListView) findViewById(R.id.proceduresListView);
         procedureAdapter = new ArrayAdapter<ProcedureRecord>(this,android.R.layout.simple_list_item_1, procedureStringList);
@@ -153,6 +206,13 @@ public class NhisClaimFormActivity extends Activity implements AdapterView.OnIte
         medicineAdapter = new ArrayAdapter<MedicineRecord>(this,android.R.layout.simple_list_item_1, medicineStringList);
         medicineListView.setAdapter(medicineAdapter);
 
+        diagnosisListView = (ListView) findViewById(R.id.diagnosisListView);
+        diagnosisAdapter = new ArrayAdapter<OPDCaseRecord>(this,android.R.layout.simple_list_item_1, diagnosisStringList);
+        diagnosisListView.setAdapter(diagnosisAdapter);
+
+
+
+
         //spinnerTypeOfServices.setAdapter(adapter);
         fillTypeOfServiceSpinner();
         fillInvestigationSpinner();
@@ -160,8 +220,19 @@ public class NhisClaimFormActivity extends Activity implements AdapterView.OnIte
         fillOutcomesSpinner();
         fillProceduresSpinner();
         fillTypeOfAttendanceSpinner();
-
+        fillDiagnosisSpinners();
     }
+
+    public boolean fillDiagnosisSpinners(){
+        OPDCases opdCases = new OPDCases(this.getApplicationContext());
+        listOfOPDCases = opdCases.getOPDcases();
+        listOfOPDCases.add(0,new OPDCase(0,"Select case"));
+        ArrayAdapter<OPDCase> adapter = new ArrayAdapter<OPDCase>(this,android.R.layout.simple_list_item_1, listOfOPDCases);
+        spinnerOPDcases.setAdapter(adapter);
+        spinnerOPDcases.setOnItemSelectedListener(this);
+        return true;
+    }
+
 
     public boolean fillTypeOfServiceSpinner() {
         TypeOfServices services = new TypeOfServices(this.getApplicationContext());
@@ -268,11 +339,18 @@ public class NhisClaimFormActivity extends Activity implements AdapterView.OnIte
             addProcedureRecord();
 
         }
+        if(view == diagnosisAddBtn){
+            addDiagnosisRecord();
+
+        }
         if(view == investigationAddBtn){
             addInvestigationRecord();
         }
         if(view == medicineAddBtn){
             addMedicineRecord();
+        }
+        if(view == claimAddBtn){
+            saveClaim();
         }
 
     }
@@ -326,10 +404,25 @@ public class NhisClaimFormActivity extends Activity implements AdapterView.OnIte
 
     }
 
+    private void addDiagnosisRecord(){
+        OPDCase p = new OPDCase();
+        p = (OPDCase)spinnerOPDcases.getSelectedItem();
+        totalDiagnosisCharge+=p.getCharge();
+        OPDCaseRecord prec = new OPDCaseRecord(communityMemberId,p.getID(),p.getOPDCaseName(),getLastVisitDate(),choId,p.getCharge());
+        diagnosisStringList.add(prec);
+        diagnosisAdapter.notifyDataSetChanged();
+        ViewGroup.LayoutParams params = diagnosisListView.getLayoutParams();
+        params.height = getItemHeightOfListView(diagnosisListView);
+        diagnosisListView.setLayoutParams(params);
+        diagnosisListView.requestLayout();
+
+    }
+
     private void addProcedureRecord(){
         //procedureListView.
         Procedure p = new Procedure();
         p = (Procedure)spinnerProcedure.getSelectedItem();
+        totalProcedureCharge+=p.getCharge();
         ProcedureRecord prec = new ProcedureRecord(p.getId(),p.getProcedure(),getLastVisitDate(),p.getCharge());
         procedureStringList.add(prec);
         procedureAdapter.notifyDataSetChanged();
@@ -347,6 +440,7 @@ public class NhisClaimFormActivity extends Activity implements AdapterView.OnIte
         //procedureListView.
         Investigation i = new Investigation();
         i = (Investigation)spinnerInvestigation.getSelectedItem();
+        totalInvestigationCharge+=i.getCharge();
         InvestigationRecord irec = new InvestigationRecord(i.getId(),i.getInvestigationName(),getLastVisitDate(),i.getCharge());
         investigationStringList.add(irec);
         investigationAdapter.notifyDataSetChanged();
@@ -363,6 +457,7 @@ public class NhisClaimFormActivity extends Activity implements AdapterView.OnIte
         m = (Medicine)spinnerMedicines.getSelectedItem();
         int quantity = Integer.parseInt(editQuantity.getText() + "");
         float medicineCharge = m.getCharge()*quantity ;
+        totalMedicinesCharge+=medicineCharge;
        MedicineRecord irec = new MedicineRecord(m.getId(),m.getMedicine(),getLastVisitDate(),quantity,medicineCharge);
        medicineStringList.add(irec);
         medicineAdapter.notifyDataSetChanged();
@@ -372,5 +467,122 @@ public class NhisClaimFormActivity extends Activity implements AdapterView.OnIte
         medicineListView.requestLayout();
 
     }
+     //once the add claim is called, if new bundle is selected  the setNewbundle method is called which
+    //in turn calls the add new bundle
+    public void saveClaim(){
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setMessage("Add to new or existing bundle?" );
+            builder.setPositiveButton("New bundle", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+                    setNewBundleDate();
+
+                    dialog.dismiss();
+                }
+            });
+        builder.setNegativeButton("Existing bundle", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+                dialog.dismiss();
+            }
+        });
+
+            AlertDialog dialog = builder.create();
+            dialog.show();
+
+    }
+    //method opens a datepicker dialog for setting the date for a new bundle
+    //On date set it calls addNewbundle() which creates a new bundle and retrieves the id of th newly created bundle
+    public void  setNewBundleDate(){
+        final Calendar c = Calendar.getInstance();
+        int mYear = c.get(Calendar.YEAR);
+        int mMonth = c.get(Calendar.MONTH);
+        int mDay = c.get(Calendar.DAY_OF_MONTH);
+
+
+        DatePickerDialog dpd = new DatePickerDialog(this,
+                new DatePickerDialog.OnDateSetListener() {
+
+                    @Override
+                    public void onDateSet(DatePicker view, int year,
+                                          int monthOfYear, int dayOfMonth) {
+                        c.set(year, monthOfYear, dayOfMonth);
+                        newBundleDate = dateFormat.format(c.getTime())+"";
+                        addNewBundle();
+                    }
+                }, mYear, mMonth, mDay);
+        dpd.show();
+        //addNewBundle();
+    }
+
+    public void addNewBundle(){
+        Bundles bundle = new Bundles(this.getApplicationContext());
+        if(bundle.addOrUpdate(newBundleDate)){
+           justAddedBundleId = bundle.getJustAddedId();
+            addClaimRecord();
+        }
+    }
+
+    public float computeTotalClaimCharge(){
+         return totalDiagnosisCharge + totalInvestigationCharge + totalMedicinesCharge + totalProcedureCharge;
+
+    }
+    public void addClaimRecord(){
+        ClaimRecords claim = new ClaimRecords((this.getApplicationContext()));
+        claim.addOrUpdate(spinnerTypeOfServices.getSelectedItem().toString(), spinnerOutcomes.getSelectedItem().toString(),
+                visitOne.getText()+"",visitTwo.getText()+"",visitThree.getText()+"",visitThree.getText()+"",computeTotalClaimCharge(),
+                justAddedBundleId);
+        justAddedClaimId =claim.getClaimRecordId();
+        addProcedures();
+        addInvestigations();
+        addMedicines();
+        addDiagnosis();
+    }
+
+    public void addProcedures(){
+        ProcedureRecords precords = new ProcedureRecords(this.getApplicationContext());
+
+        for(int i =0 ;i<procedureStringList.size(); i++){
+            precords.addOrUpdate(procedureStringList.get(i).getProcedureId(),procedureStringList.get(i).getRecDate(),
+                    justAddedClaimId,procedureStringList.get(i).getCharge());
+        }
+    }
+
+    public void addInvestigations(){
+        InvestigationRecords irecords = new InvestigationRecords(this.getApplicationContext());
+
+        for(int i=0 ; i<investigationStringList.size(); i++){
+            irecords.addOrUpdate(investigationStringList.get(i).getInvestigationId(),investigationStringList.get(i).getRecDate(),
+                    justAddedClaimId,investigationStringList.get(i).getCharge());
+
+        }
+
+    }
+
+    public void addMedicines(){
+        MedicineRecords mrecords = new MedicineRecords(this.getApplicationContext());
+
+        for(int i=0; i<medicineStringList.size(); i++){
+            mrecords.addOrUpdate(medicineStringList.get(i).getMedicineId(),medicineStringList.get(i).getRecDate(),
+                    justAddedClaimId,medicineStringList.get(i).getQuantity(),medicineStringList.get(i).getCharge());
+
+        }
+
+    }
+    public void addDiagnosis(){
+        CommunityMembers members = new CommunityMembers(this.getApplicationContext());
+        //recordOPDCase(int communityMemberId, int opdCaseId, String date, int choId)
+
+
+        for(int i=0 ; i<diagnosisStringList.size(); i++){
+           members.recordOPDCase(communityMemberId,diagnosisStringList.get(i).getOPDCaseId(),diagnosisStringList.get(i).getRecDate(),
+                   choId,justAddedClaimId);
+
+        }
+
+    }
+
+
+
+
+
 }
 

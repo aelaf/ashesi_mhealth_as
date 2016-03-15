@@ -1,6 +1,8 @@
 package com.ashesi.cs.mhealth.data;
 
+import android.content.ContentValues;
 import android.content.Context;
+import android.database.sqlite.SQLiteDatabase;
 
 import com.ashesi.cs.mhealth.DataClass;
 
@@ -32,5 +34,27 @@ public class InvestigationRecords extends DataClass {
                 +ClaimRecords.CLAIM_ID +" integer default 0, "
                 +INVESTIGATION_CHARGE +" real default 0"
                 +" )";
+    }
+
+    public boolean addOrUpdate(int id,String recDate,int claimId, float charge){
+        try{
+            SQLiteDatabase db=getWritableDatabase();
+            ContentValues cv=new ContentValues();
+
+            cv.put(INVESTIGATION_ID,
+                    id);
+            cv.put(INVESTIGATION_REC_DATE, recDate);
+            cv.put(ClaimRecords.CLAIM_ID, claimId);
+            cv.put(INVESTIGATION_CHARGE, charge);
+
+            if(db.insertWithOnConflict(TABLE_NAME_INVESTIGATIONS, null,cv,SQLiteDatabase.CONFLICT_REPLACE) <=0){
+                return false;
+            }
+            close();
+            return true;
+        }catch(Exception ex){
+            close();
+            return false;
+        }
     }
 }

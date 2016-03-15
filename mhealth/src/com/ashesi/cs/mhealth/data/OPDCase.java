@@ -28,8 +28,18 @@ public class OPDCase {
 		this.category=category;
 		this.displayOrder=displayOrder;
 	}
+
+	public String getGdrg() {
+		return gdrg;
+	}
+
+	public float getCharge() {
+		return charge;
+	}
+
 	public OPDCase(int id, String opdCaseName, int category, int displayOrder,String gdrg, float charge){
 		this.id=id;
+
 		this.opdCaseName=opdCaseName;
 		this.category=category;
 		this.displayOrder=displayOrder;
